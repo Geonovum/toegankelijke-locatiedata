@@ -1,4 +1,4 @@
 # toegankelijke-locatiedata
-Vernieuwde handreiking digitaal toegankelijke locatiedata
+Vernieuwde handreiking digitaal toegankelijke locatiedata.
 
-Op dit moment is het een naar ReSpec gebrachte versie van het originele document (PDF).
+Branch v20-beta bevat een naar ReSpec gebrachte versie van het originele document (PDF), van https://www.geonovum.nl/geo-standaarden/geo-op-het-web/webrichtlijnen-en-geo-20-beta. 
