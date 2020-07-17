@@ -1,7 +1,4 @@
 ## De richtlijnen toegelicht voor geo
-
-**TODO: herzien**
-
 In dit hoofdstuk beschrijven we de belangrijkste eisen uit de webrichtlijnen en lichten die toe voor geo-informatie. We doen dit aan de hand van de structuur van de webrichtlijnen versie 2: we houden de volgorde aan van de principes universeel, waarneembaar, bedienbaar en begrijpelijk. Van elk principe komen de belangrijkste eisen aan bod. Per eis belichten we aandachtspunten, veelvoorkomende toegankelijkheidskwesties en suggesties voor oplossingen. Wilt u meer weten over de webrichtlijnen? Lees dan Hoofdstuk 5 Wat zijn webrichtlijnen?
 
 De webrichtlijnen kennen verschillende niveaus van conformiteit. Voor alle eisen en indelingen in niveaus kunt u terecht in het meest recente normdocument (Webrichtlijnen versie 2 Normdocument, 2014). Wij raden u aan om minimaal aan niveau AA te voldoen. Maar voor geo-toepassingen is de extra moeite die u moet doen om niveau AAA te behalen, minimaal. We beschrijven de richtlijnen hieronder voor niveau A of AA. Waar niveau AAA relevant is, noemen we dat expliciet.
@@ -128,8 +125,6 @@ mogelijkheid om via script kaarten in te bouwen in uw eigen systeem. Dat gaat bi
 kopieert naar uw eigen systeem (zoals bij Google Maps en PDOK Kaart). Als u via script rechtstreeks een
 kaart inbouwt, hebt u bovendien de mogelijkheid om nog eigen wensen door te voeren: u kunt dan
 bijvoorbeeld bepalen hoe groot het zoomniveau is, of welke kaartlagen de applicatie laat zien.
-
-**TODO: plugins voor CMSen noemen?**
 
 #### Openheid, open specificaties
 
@@ -316,7 +311,7 @@ In deze paragraaf worden verschillende uitwerkingen van het principe bedienbaar 
 
 #### Toetsenbordbediening
 
-> TODO: oorspronkelijke eis mist in doc
+> _Nota bene oorspronkelijke eis mist in document_
 >
 > Webrichtlijn XI - Richtlijn 2.1 (Webrichtlijnen versie 2 Normdocument, 2014)
 

@@ -13,9 +13,14 @@ var respecConfig =
   editors:
   [
     {
-      name:       "Thijs Brentjens",
+      name:       "Theo Overduin",
       company:    "Geonovum",
       companyURL: "https://geonovum.nl"
+    },
+    {
+      name:       "Thijs Brentjens",
+      company:    "Brentjens Geo-ICT",
+      companyURL: "https://brentjensgeoict.nl"
     },
   ],
   //-- de namen van de Author(s) ------------------------------------------------------
@@ -24,9 +29,29 @@ var respecConfig =
   authors:
   [
     {
-      name:       "Thijs Brentjens",
+      name:       "Edward Mac Gillavry",
+      company:    "Webmapper",
+      companyURL: "https://webmapper.net"
+    },
+    {
+      name:       "Sjors Slaats",
+      company:    "Tactico",
+      companyURL: "http://www.tactico.nl/"
+    },
+    {
+      name:       "Theo Overduin",
       company:    "Geonovum",
       companyURL: "https://geonovum.nl"
+    },
+    {
+      name:       "Thijs Brentjens",
+      company:    "Brentjens Geo-ICT",
+      companyURL: "https://brentjensgeoict.nl"
+    },
+    {
+      name:       "Victor Zuydweg",
+      company:    "ICTU",
+      companyURL: "https://www.ictu.nl"
     },
   ],
   shortName: "toeg",
@@ -37,14 +62,16 @@ var respecConfig =
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   localBiblio:
   {
-    "webgeo2.0":
+    "webgeo2":
     {
         title:      "Webrichtlijnen en geo 2.0 bèta",
         href:       "https://www.geonovum.nl/geo-standaarden/geo-op-het-web/webrichtlijnen-en-geo-20-beta",
         status:     "V2.0 beta",
         publisher:  "Geonovum",
         company:    "Geonovum",
-    }
+        id: "webgeo2"
+    },
+
   },
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!

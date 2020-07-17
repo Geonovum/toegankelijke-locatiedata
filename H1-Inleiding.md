@@ -1,7 +1,4 @@
 ## Inleiding
-
-**TODO: herzien**
-
 Eind 2013 publiceerde Geonovum in samenwerking met ICTU de eerste versie van de Handreiking Geo-
 informatie en Webrichtlijnen. Vragen over dit onderwerp vanuit het werkveld waren hiervoor de aanleiding.
 Continue ontwikkelingen in het domein van webrichtlijnen en geo-informatie maakten een update van de
@@ -29,7 +26,4 @@ We horen graag of dit document u geholpen heeft en of u verbeteringen weet aan t
 > _- Gary Gale (Gale, 2013)_
 
 ### Leeswijzer
-
-**TODO: herzien en links aanbrengen waar nodig**
-
 Hoofdstuk 1 is direct de samenvatting van dit document. De belangrijkste principes, vuistregels en adviezen leest u hier. In Hoofdstuk 2 lichten we de belangrijke eisen uit de webrichtlijnen toe voor geo-informatie, inclusief toegankelijkheidskwesties en mogelijke oplossingen. Hoofdstuk 3 laat zien hoe het hanteren van een gebruikersperspectief helpt bij het publiceren van geo-informatie. Hoofdstuk 4 biedt handvatten voor toegankelijkheidsuitdagingen voor specifieke soorten geo-informatie: lijn- en vlakinformatie, rasterkaarten en animaties. In Hoofdstuk 5 leest u alles over de webrichtlijnen. Het gebruik van de webrichtlijnen levert veel voordelen op voor uw digitale communicatie. Welke dat zijn, leest u in Hoofdstuk 6. Ten slotte biedt Hoofdstuk 7 een verantwoording voor dit document en het project.
