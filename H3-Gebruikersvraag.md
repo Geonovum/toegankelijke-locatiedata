@@ -71,48 +71,49 @@ naar één thema tegelijk te kijken. De volgende voorbeelden illustreren dit.
 
 ![Veelvoorkomende gebruikersvraag: wat gebeurt er bij mij in de buurt?](media/in-mijn-buurt.png)
 
-Veelvoorkomende gebruikersvraag: wat gebeurt er bij mij in de buurt?
+Figuur – Veelvoorkomende gebruikersvraag: wat gebeurt er bij mij in de buurt?
 
+> Voorbeeld - Bestemmingsplannen
+>
 > Bestemmingsplannen worden gepubliceerd, zodat een gebruiker kan zien wat wel en wat niet mag
 > op plekken die hij/zij interessant vindt. Kijkend naar de belevingswereld van de gebruiker, is de
 > vraag waarschijnlijk alleen niet om alle bestemmingsplannen in zijn/haar gemeente of buurt te
 > kunnen zien op een kaart (wat het antwoord van de aanbieder lijkt te zijn), maar veel specifieker:
 > wat mag ik wel/niet doen bij mijn huis (of op locatie X)? Of: mag ik hier mijn bedrijf uitbouwen?
->
-> Voorbeeld - Bestemmingsplannen
 
+
+> Voorbeeld - Afvalinzameling
+>
 > Vraag: Waar zijn de glasbakken bij mij in de buurt te vinden?
 > Antwoord: Een lijst met dichtstbijzijnde glasbakken en de straatnaam erbij (“straat X, bij Winkelcentrum Y”)
->
-> Voorbeeld - Afvalinzameling
 
+> Voorbeeld - Vergunningsaanvragen
+>
 > Vraag: Welke aanvragen zijn bij mij in de buurt gedaan? (En zal ik daar hinder van ondervinden?)
 > Antwoord: Een lijst met aanvragen in de buurt van het opgegeven adres, gesorteerd op afstand van het opgegeven adres. GEOZET beantwoordt de vraag: “Welke lokale bekendmakingen zijn er recent bij mij in de buurt gedaan?”
+
+> Voorbeeld - Zonne-energie
 >
-> Voorbeeld - Vergunningsaanvragen
-
-
 > Vragen: Wat zou ik kunnen besparen met zonne-energie? Is mijn dak geschikt voor zonne-energie?
 > Antwoord: Een simpel ja of nee of “zeer geschikt” tot “niet geschikt”. Eventueel met een indicatie van de te verwachten opbrengst.
 >
 > ![Zonatlas](media/zonatlas.png)
-> Zonatlas
+> Figuur – Zonatlas
 >
 > De Zonatlas gebruikt als zoekingang een adres, daarna verschijnt de rest, met een antwoord in hoeverre een dak geschikt is voor zonne-energie. Zie bijvoorbeeld [www.zonatlas.nl/amsterdam/](https://www.zonatlas.nl/amsterdam/). Dit is een voorbeeld van een vraaggerichte benadering, ondersteund door geo-informatie.
->
-> Voorbeeld 13 - Zonne-energie
 
+> Voorbeeld - Luchtkwaliteit
+>
 > Vragen: Is de lucht bij mij thuis schoon? (“Zijn we veilig?”) Hoe verhoudt zicht dat tot de omgeving, landelijk, ...?
 >
 > Antwoord: Een simpele classificatie: vervuild, schoon, boven/onder gemiddeld.
->
-> Voorbeeld - Luchtkwaliteit
 
+> Voorbeeld - Handelsmissies
+>
 > Vragen: Vragen: Waar gaan de volgende handelsmissies van de Minister van Buitenlandse zaken heen? Wanneer is de volgende handelsmissie naar Land X?
 >
 > Antwoord: Een alfabetische lijst met bestemmingen.
->
-> Voorbeeld - Handelsmissies
+
 
 De antwoorden bij alle bovenstaande voorbeelden zijn uitstekend tekstueel te geven. Deze antwoorden zijn
 goed toegankelijk in een kaart te presenteren als ondersteuning bij de tekst. Deze kaarten vereisen weinig

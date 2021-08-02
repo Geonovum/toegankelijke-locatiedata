@@ -299,7 +299,8 @@ Deuteranopia). De iconen die kleur en vorm gebruiken zijn ook met kleurenblindhe
 vlak-informatie kan in plaats van alleen kleur ook met arcering en/of symbolen gewerkt worden.
 
 ![Kleur en vorm voor vlak-informatie](media/kleur-en-vorm-vlakken.png)
-Kleur en vorm voor vlak-informatie
+
+Figuur – Kleur en vorm voor vlak-informatie
 
 De bovenste helft toont onderscheid door kleur en vorm voor vlak-informatie. In de onderste helft is een
 bepaald soort kleurenblindheid (zogenaamde Deuteranopia) gesimuleerd. Het onderscheid in kleur is bijna
