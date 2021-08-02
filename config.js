@@ -1,12 +1,12 @@
 //-------------------------------------------------------------------------------------
 var respecConfig =
 {
-  specStatus: "GN-WV",
+  specStatus: "GN-VV",
   specType: "HR",
   format: "markdown",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  // publishDate: "2018-09-18",  	    // Format is "YYY-MM-DD"
+  publishDate: "2021-08-02",  	    // Format is "YYY-MM-DD"
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   github: "https://github.com/geonovum/toegankelijke-locatiedata",
