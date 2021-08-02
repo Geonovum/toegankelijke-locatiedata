@@ -1,7 +1,7 @@
 //-------------------------------------------------------------------------------------
 var respecConfig =
 {
-  specStatus: "GN-VV",
+  specStatus: "GN-DEF",
   specType: "HR",
   format: "markdown",
   //-- publishDate is verplicht -------------------------------------------------------
