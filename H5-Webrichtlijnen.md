@@ -1,4 +1,4 @@
-## Wat zijn webrichtlijnen?
+## Wat zijn toegankelijkheidseisen?
 In dit hoofdstuk wordt kort ingegaan op het huidige web, de wereld van webrichtlijnen en de
 relevantie voor geo-informatie.
 
@@ -28,8 +28,11 @@ beschikbaar.
 
 De huidige webrichtlijnen (versie 2) bestaan uit twee onderdelen:
 1. _De Web Content Accessibility Guidelines 2.0_ (kortweg WCAG 2.0): de internationale toegankelijkheidsrichtlijnen van het World Wide Web Consortium (W3C) uit 2008. Deze bestaan uit 4 principes: Waarneembaar, Bedienbaar, Begrijpelijk en Robuust.
+
+TODO: schrap universeel
 1. Aan die 4 principes heeft de Nederlandse overheid een vijfde principe toegevoegd: het principe Universeel. Dit principe ondersteunt de WCAG 2.0-standaard op het gebied van bouwkwaliteit, gebruiksvriendelijkheid en vindbaarheid. Het is opgesteld door de Nederlandse overheid, en is alleen in Nederland van kracht.
 
+TODO: 4?
 De 5 principes bevatten samen 22 richtlijnen, die weer zijn onderverdeeld in succescriteria. Meer informatie
 over de webrichtlijnen vindt u op [de website drempelvrij](http://www.drempelvrij.nl/waarmerk-2/wcag-20/over-wcag-20) (Over WCAG 2.0 / Webrichtlijnen 2, 2014).
 

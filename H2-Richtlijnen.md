@@ -1,67 +1,38 @@
 ## De richtlijnen toegelicht voor geo
-In dit hoofdstuk beschrijven we de belangrijkste eisen uit de webrichtlijnen en lichten die toe voor geo-informatie. We doen dit aan de hand van de structuur van de webrichtlijnen versie 2: we houden de volgorde aan van de principes universeel, waarneembaar, bedienbaar en begrijpelijk. Van elk principe komen de belangrijkste eisen aan bod. Per eis belichten we aandachtspunten, veelvoorkomende toegankelijkheidskwesties en suggesties voor oplossingen. Wilt u meer weten over de webrichtlijnen? Lees dan Hoofdstuk 5 Wat zijn webrichtlijnen?
+In dit hoofdstuk beschrijven we de belangrijkste toegankelijkheidseisen en lichten die toe voor geo-informatie. We doen dit aan de hand van de toegankelijkheidseisen zoals beschreven op [digitoegankelijk.nl](https://https://www.digitoegankelijk.nl/). Deze eisen komen voort uit de Web Content Accessibility Guidelines (WCAG) versie 2.1, hierna aangeduid met [[WCAG21]].
 
-De webrichtlijnen kennen verschillende niveaus van conformiteit. Voor alle eisen en indelingen in niveaus kunt u terecht in het meest recente normdocument (Webrichtlijnen versie 2 Normdocument, 2014). Wij raden u aan om minimaal aan niveau AA te voldoen. Maar voor geo-toepassingen is de extra moeite die u moet doen om niveau AAA te behalen, minimaal. We beschrijven de richtlijnen hieronder voor niveau A of AA. Waar niveau AAA relevant is, noemen we dat expliciet.
+Er is ook [een Nederlandse versie van deze richtlijnen](https://www.w3.org/Translations/WCAG21-nl/) beschikbaar.
 
-### Universeel
-In deze paragraaf worden verschillende uitwerkingen van het principe universeel uitgelegd.
+De eisen van [[WCAG21]] kennen verschillende niveaus van conformiteit: A, AA, AAA. Waarbij A de laagste en AAA de hoogste eisen zijn. Voor overheden is het [verplicht dat websites en mobiele apps van Nederlandse overheidsinstanties voldoen aan de toegankelijkheidseisen](https://www.digitoegankelijk.nl/wetgeving/wat-verplicht). Er dient voldaan te worden aan de eisen van het niveau A en AA uit [[WCAG21]]. Wilt u meer weten over digitale toegankelijkheidseisen? Lees dan Hoofdstuk 5 Wat zijn toegankelijkheidseisen?
+
+Voor geo-informatie / locatiedata gelden echter uitzonderingen. Wij raden desondanks aan om aan de eisen te voldoen, zodat webpagina's en apps met locatiedata te gebruiken zijn voor een zo groot mogelijke groep. We beschrijven de eisen hieronder voor niveau A of AA. Waar niveau AAA relevant is, noemen we dat expliciet.
+
+**TODO: of indeling hanteren van digitoegankelijk.nl?**
+We hanteren in dit hoofdstuk een indeling op basis van de principes waarneembaar, bedienbaar en begrijpelijk. Van elk principe komen de belangrijkste eisen aan bod. Per eis belichten we aandachtspunten, veelvoorkomende toegankelijkheidskwesties en suggesties voor oplossingen. We hanteren de nummering van eisen zoals in het originele [[WCAG21]] document. Daarnaast zijn er enkele algemene, universele zaken die kunnen helpen bij het toegankelijk aanbieden van geo-informatie. Deze behandelen we eerst.
+
+Gebruik van noemen: **https://www.digitoegankelijk.nl/uitleg-van-eisen/geo-informatie**
+
+### Universele zaken
+In deze paragraaf worden enkele universele zaken uitgelegd, die kunnen helpen bij het toegankelijk maken van websites en toepassingen met locatiedata.
 
 #### Gelaagd bouwen
-
-> Gebruik technologieën op zodanige wijze, dat de basiscontent en -functionaliteit die nodig zijn om een webpagina te kunnen gebruiken onder alle omstandigheden beschikbaar zijn.
-> _Webrichtlijn I - Richtlijn U.3.1 (Webrichtlijnen versie 2 Normdocument, 2014)_
-
 Gelaagd bouwen betekent dat een website zodanig gelaagd is opgebouwd, dat iedereen gegarandeerd
 toegang heeft tot de basisinhoud en -functionaliteit van de site, met welk type browser of internetverbinding
-dan ook. Een gebruiker met een geavanceerde browser krijgt zo de optimale gebruikersbeleving, terwijl de
+dan ook. Een gebruiker met een geavanceerde, moderne browser krijgt zo de optimale gebruikersbeleving, terwijl de
 content en functionaliteit ook toegankelijk blijven voor een ‘eenvoudige’ gebruiker. Overigens heeft gelaagd
-bouwen niet alleen voordelen voor gebruikers: voor zoekmachines biedt de basislaag de noodzakelijke
+bouwen niet alleen voordelen voor gebruikers: voor zoekmachines bijvoorbeeld biedt de basislaag de noodzakelijke
 informatie om de content succesvol te kunnen indexeren.
 
-##### Kwestie
-Voor interactieve geografische webapplicaties kunnen browser plug-ins (zoals Macromedia Flash, Microsoft
-Silverlight en Adobe Reader) nodig zijn om de informatie te benaderen. Het is verleidelijk om hierbij het
-`<canvas>` element uit HTML5, WebGL of Scalable Vector Graphics (SVG) toe te passen. Maar lang niet
-iedereen beschikt over de laatste browserversies die deze nieuwe webtechnologieën ondersteunen. Voor
-interactieve kaartanimaties worden weer andere plug-ins gebruikt, zoals bijvoorbeeld QuickTime of MPEG.
-Ook hier zijn SVG en WebGL open alternatieven, die echter niet door alle gangbare browserversies worden
-ondersteund.
-
-##### Mogelijke oplossing
-In al deze gevallen kan gelaagd bouwen helpen. Een voorbeeld van gelaagd bouwen met geo-informatie en
-kaarten is:
+Een voorbeeld van gelaagd bouwen met geo-informatie en kaarten is:
 1. Zorg voor een duidelijke, tekstuele beschrijving van de informatie in de meest basale vorm.
 1. Gebruik een niet-interactieve kaart waarop de informatie van 1 staat gepositioneerd, bijvoorbeeld met behulp van CSS.
 1. Beschikt de gebruiker over technieken als JavaScript, en wilt u interactiviteit bieden? Gebruik dan JavaScript om de statische kaart van 2 te vervangen door een interactieve.
 
-Een voorbeeld waarin gebruik wordt gemaakt van kaarten vindt u in [een weblog van Brad Frost](http://bradfrost.com/blog/post/adaptive-maps/) over gelaagd
-bouwen (Adaptive Maps, 2012). In paragraaf 2.2.1 leest u meer over tekstalternatieven voor interactieve
-kaarten, en in paragraaf 2.2.2 vindt u informatie over alternatieven voor kaartanimaties.
+In paragraaf 2.2.1 leest u meer over tekstalternatieven voor interactieve kaarten, en in paragraaf 2.2.2 vindt u informatie over alternatieven voor kaartanimaties.
 
-#### Foutmeldingen
+#### Invoer: formulier om locatie in te voeren
 
-> Zorg voor bruikbare foutmeldingen.
->
-> _-Webrichtlijn II - Richtlijn U.4.1 (Webrichtlijnen versie 2 Normdocument, 2014)_
-
-> `(gui.layers.TilingLayer):Can't find the parent Map component.`
->
-> Voorbeeld Foutmelding gepresenteerd aan eindgebruiker door een geo-viewer
-
-Het geven van bruikbare foutmeldingen is niet specifiek voor geo-informatie. Toch is dit ook belangrijk voor
-toepassingen die met geo-informatie werken. Denk bijvoorbeeld bij het zoeken van locaties via een formulier
-aan het geven van suggesties bij spelfouten (Bedoelde u...?), in plaats van het weergeven van ‘Geen
-resultaten’.
-
-Ook het afvangen en omzetten van foutmeldingen van eventuele (externe) webservices is zinvol. Dan
-begrijpt de gebruiker wat er aan de hand is. Meer tips over foutmeldingen vindt u op de [pagina over
-contingency design](http://www.webrichtlijnen.nl/aan-de-slag/contingency-design) op webrichtlijnen.nl (Webrichtlijnen.nl, 2014).
-
-#### Invoer: formulier om locatie in te tekenen
-
-> Maak formulieren optimaal bruikbaar.
->
-> Webrichtlijn III - Richtlijn U.5.1 (Webrichtlijnen versie 2 Normdocument, 2014)
+Zie de algemene eisen op https://www.digitoegankelijk.nl/uitleg-van-eisen/formulieren.
 
 Voor het zoeken van locaties op adres of plaatsnaam wordt vaak een formulier gebruikt. Daarbij is het
 belangrijk om de gebruiker goed naar het gewenste resultaat te begeleiden. Denk bijvoorbeeld aan het
@@ -97,24 +68,14 @@ beantwoorden.
 In paragraaf 2.4.2 leest u meer over het bieden van hulp bij het invullen van formulieren om fouten te
 vermijden.
 
-#### iFrames en kaarten
-
-> Sluit niemand uit bij het aanbieden van content middels geneste weergavekaders.
->
-> Webrichtlijn IV - Richtlijn U.7.1 (Webrichtlijnen versie 2 Normdocument, 2014)
-
-Geografische webapplicaties worden vaak als zelfstandige applicaties ontwikkeld, met eigen tooling en los
-van bestaande Content Management Systemen (CMS). Met als gevolg dat een iFrame nodig is om de
+#### iFrames en kaarten: integratie in webpagina's
+Geografische webapplicaties worden nog steeds vaak als zelfstandige applicaties ontwikkeld, met eigen tooling en los
+van bestaande Content Management Systemen (CMS). Met als gevolg dat een iFrame gebruikt wordt om de
 geografische webapplicatie ‘in te lezen’ in het CMS. Met zo’n iFrame reserveert het CMS een vaste plek op
 de pagina voor invulling door de geografische webapplicatie. De eindgebruiker merkt hier vrijwel niets van.
 
-> Een voorbeeld hiervan is de Geluidskaart van de gemeente Nieuwegein (Geluidskaart Nieuwegein, 2014). Deze pagina roept met een iFrame de geografische webapplicatie aan van een andere URL. (GeoServer nieuwegein, 2014)
-
-> Ook [PDOK Kaart](http://kaart.pdok.nl/) (PDOK Kaart, 2014) kan met de optie “Als URL” via een iFrame worden aangeroepen vanuit een CMS.
-
 ##### Kwestie
-Over het algemeen raden wij iFrames af. Gebruikers kunnen namelijk vast komen te zitten via een iFrame,
-of ze kunnen informatie niet in de juiste context vinden. (Om dit te omzeilen kunt u een link aanbieden
+Over het algemeen raden wij iFrames af. Gebruikers kunnen namelijk vast komen te zitten via een iFrame (bijvoorbeeld bij bediening via het toetsenbord), of ze kunnen informatie niet in de juiste context vinden. (Om dit laatste te omzeilen kunt u een link aanbieden
 buiten het iFrame, waarmee de gebruiker de geo-applicatie ook als aparte pagina kan laden. Maar dit is een
 noodscenario.)
 
@@ -122,19 +83,25 @@ noodscenario.)
 Er zijn ook andere manieren om geo-applicaties in te passen. Online kaartplatformen bieden vaak de
 mogelijkheid om via script kaarten in te bouwen in uw eigen systeem. Dat gaat bijvoorbeeld via Map API's
 (Javascript-bibliotheken). Of u kunt op het kaartplatform een stukje HTML-code genereren, dat u eenvoudig
-kopieert naar uw eigen systeem (zoals bij Google Maps en PDOK Kaart). Als u via script rechtstreeks een
+kopieert naar uw eigen systeem. Als u via script rechtstreeks een
 kaart inbouwt, hebt u bovendien de mogelijkheid om nog eigen wensen door te voeren: u kunt dan
 bijvoorbeeld bepalen hoe groot het zoomniveau is, of welke kaartlagen de applicatie laat zien.
 
-#### Openheid, open specificaties
+#### Leesbaarheid en leesniveau
+Hoewel er geen specifieke eisen over leesniveaus onder niveau A of AA vallen van de toegankelijkheidseisen, is het voor toegankelijkheidwel van belang dat de geboden informatie leesbaar en begrijpelijk is.
 
-> Gebruik bij het aanbieden van content ten minste open, niet leverancier afhankelijke en voor webcontent bedoelde specificaties. En geef bij gelijke geschiktheid de voorkeur aan open standaarden.
->
-> Webrichtlijn V - Richtlijn U.9.1 (Webrichtlijnen versie 2 Normdocument, 2014)
+##### Kwestie
+Soms staan in gegevens op de kaart, zoals na aanklikken van een locatie of icoon op de kaart, in de tekstballonnen per ongeluk nog technische informatie, zoals identifiers en codes, afkortingen of Engelstalige termen. Maar het kunnen ook (interne) beschrijvingen zijn, die niet begrijpelijk of relevant zijn voor de eindgebruiker.
 
+##### Mogelijke oplossing
+Verwijder overbodige informatie als technische details of beschrijvingen voor intern gebruik.
+
+#### Techniek en code
 Gebruikt u WebGIS-frameworks of JavaScript-bibliotheken om interactieve kaartapplicaties te publiceren?
 Dan is het goed om te weten dat die veel HTML-, CSS- en JavaScript-code bevatten en/of automatisch
 genereren.
+
+Zie [Techniek en code op DigiToegankelijk.nl](https://www.digitoegankelijk.nl/uitleg-van-eisen/techniek-en-code) voor een algemene uitleg.
 
 ##### Kwestie
 Het komt geregeld voor, dat deze code niet volledig voldoet aan webstandaarden. Daardoor is uw website
@@ -144,40 +111,16 @@ niet optimaal toegankelijk.
 Het is verstandig om uw website hierop te toetsen, bijvoorbeeld met online validators. In Bijlage 3 vindt u
 een aantal aanbevolen validators.
 
-#### Toegankelijke URI's
-
-> URI's dienen duidelijk, uniek en duurzaam te zijn.
->
-> Webrichtlijn VI - Richtlijn U.10 (Webrichtlijnen versie 2 Normdocument, 2014)
-
-Is mogelijk om elke plek op een kaart met een unieke en leesbare URI te bereiken? Volgens de webrichtlijnen
-moet het adres van een webpagina duidelijk, uniek en duurzaam zijn. De URI van een webpagina is in de
-praktijk een URL. Technisch gezien zijn URL’s en URI’s echter niet exact hetzelfde. Deze [website over URI’s](http://nl.wikipedia.org/wiki/Uniform_Resource_Identifier) geeft hier meer informatie over (Uniform Resource Identifier, Wikipedia, 2014).
-
-##### Kwestie
-Duurzaam en uniek (niveau AAA) is geen probleem: een plek op een kaart is namelijk statisch. Over een
-jaar verwijst een set coördinaten nog steeds naar dezelfde plek. Het eerste criterium, duidelijkheid, is iets
-ingewikkelder.
-
-##### Mogelijke oplossingen
-Er zijn methodes om URI’s duidelijk te houden. Een gebruiker navigeert naar een adres dat bijvoorbeeld als
-volgt is opgebouwd: `/den-haag/wilhelmina-van-pruisenweg/noord-133m/west-5m`. De URI toont zo niet
-alleen de exacte locatie, maar ook de context van waaruit de gebruiker werkt. Dit zorgt voor duidelijkheid.
-
-Daarnaast: niet elke positie op een kaart hoeft bereikbaar te zijn. De kaart is een middel waarmee u
-informatie ontsluit. Het is deze informatie die bereikbaar moet zijn via URI's. Dat kunnen vlakken zijn
-(gebieden als een veiligheidsregio of gemeente), lijnen (zoals routes) of punten (een exacte locatie): die
-moeten afzonderlijk herkenbaar zijn. De onderliggende punten op de kaart zijn decoratief of geven context,
-en zijn geen primaire inhoud. Over primaire informatie leest u meer in paragraaf 2.2.1.
+### Toegankelijkheidseisen voor geo-informatie
+Op [de webpagina over geo-informatie van digitoegankelijk.nl](https://www.digitoegankelijk.nl/uitleg-van-eisen/geo-informatie) staan toegankelijkheidseisen die (extra) aandacht vragen bij toepassingen met locatiedata. De volgende paragrafen behandelen de eisen die specifiek voor geo-informatie exta aandacht (kunnen) vragen. Als eisen een nummer bevatten, is dat het nummer zoals bij [[WCAG21]] gehanteerd wordt. Digitoegankelijk.nl gebruikt deze nummering ook.
 
 ### Waarneembaar
-In deze paragraaf worden verschillende uitwerkingen van het principe waarneembaar uitgelegd.
+In deze paragraaf worden verschillende eisen van het principe waarneembaar toegelicht.
 
 #### Tekstalternatieven
 
-> Lever tekstalternatieven voor alle niet-tekstuele content”, behalve voor (o.a.) zintuiglijke of decoratieve content of “slechts voor visuele opmaak wordt gebruikt.
->
-> _Webrichtlijn VII - Richtlijn 1.1 (Webrichtlijnen versie 2 Normdocument, 2014)_
+> 1.1.1 Geef niet-tekstuele onderdelen zoals afbeeldingen en filmpjes een tekstuele beschrijving. (niveau A)
+> 1.4.5 Gebruik geen afbeeldingen van tekst, tenzij het echt niet anders kan. (niveau AA)
 
 Geografische webapplicaties zijn een middel om locatiegebonden informatie te publiceren. Met een kaart
 toont u informatie op een bepaalde locatie. Toegankelijkheid gaat erom, dat die informatie bereikbaar is
@@ -207,7 +150,7 @@ uit af kan leiden. Bij de Sinterklaasoptocht kan hij bijvoorbeeld meteen zien wa
 halte of parkeergelegenheid is.
 
 Presenteert u deze aanvullende (en dus secundaire) informatie als primaire informatie? Dan moet u die ook
-toegankelijk (bijvoorbeeld in tekst) aanbieden. Doet u dat niet, dan is deze afgeleide informatie ‘decoratief’.
+toegankelijk aanbieden, bijvoorbeeld in tekst. Doet u dat niet, dan is deze afgeleide informatie ‘decoratief’.
 
 ##### Wat de kaart toont is niet altijd logisch
 Een kaart op internet laat niet altijd het meest intuïtieve stukje van de omgeving zien. De gebruiker navigeert
@@ -228,23 +171,20 @@ dan de visuele variant.
 > Een *rond* radarscherm is het beste om vanuit een locatie te denken.
 > Voorbeeld - Radar
 
-> Bij GEOZET wordt de functionaliteit in twee lagen aangeboden: een core en enhanced versie. De core is een formulier waarin locatie gevraagd wordt, met zoekresultaten gesorteerd op afstand. Hoe dichterbij het zoekresultaat, hoe hoger het in de lijst staat. De enhanced versie is een volledig interactieve kaart. De functionaliteiten zijn niet hetzelfde, zo kun je in de core zoomen terwijl in de enhanced versie er een straal opgegeven kan worden. Het effect is gelijkwaardig, maar de uitvraag aan de gebruiker verschilt
+TODO: ander voorbeeld? Voorbeeld eruit?
+
+> Bij de GEOZET applicatie werd de functionaliteit in twee lagen aangeboden: een core en enhanced versie. De core is een formulier waarin locatie gevraagd wordt, met zoekresultaten gesorteerd op afstand. Hoe dichterbij het zoekresultaat, hoe hoger het in de lijst staat. De enhanced versie is een volledig interactieve kaart. De functionaliteiten zijn niet hetzelfde, zo kun je in de core zoomen terwijl in de enhanced versie er een straal opgegeven kan worden. Het effect is gelijkwaardig, maar de uitvraag aan de gebruiker verschilt
 >
 > Geaccepteerde uitgangspunten van GEOZET:
 > * Er kan een gering onderscheid zijn tussen de zoekresultaten die – bij opgave van eenzelfde adres - getoond worden in de core-versie en in de enhanced-versie.
 > * Bepaalde secundaire informatie, die niet direct bijdraagt aan het beantwoorden van de geformuleerde zoekvraag, kan worden getoond in de enhanced-versie en niet in de core-versie.
-> * De enhanced-versie kan secundaire informatie bevatten die niet volledig voldoet aan de webrichtlijnen en de toegankelijkheidsrichtlijnen.
+> * De enhanced-versie kan secundaire informatie bevatten die niet volledig voldoet aan de toegankelijkheidseisen.
 >
 > Voorbeeld - Geozet
 
-#### Op tijd gebaseerde media
-
-> Lever alternatieven voor op tijd gebaseerde media
->
-> Webrichtlijn VIII - Richtlijn 1.2 (Webrichtlijnen versie 2 Normdocument, 2014)
-
-Wanneer de webrichtlijnen spreken over tijd gebaseerde media, dan gaat het meestal over online
-gepubliceerd videomateriaal. In de context van geo-informatie zijn de webrichtlijnen met betrekking tot tijd
+#### Kaarten met een animatie
+Wanneer de toegankelijkheidseisen spreken over tijd gebaseerde media, dan gaat het meestal over online
+gepubliceerd videomateriaal. In de context van geo-informatie zijn de toegankelijkheidseisen met betrekking tot tijd
 gebaseerde media vooral van belang voor kaartanimaties. Kaartanimaties zijn meestal zonder geluid. In
 veel gevallen zijn het ‘vooraf opgenomen’ animaties, zoals de geografische verspreiding van een
 griepepidemie door de tijd. Een voorbeeld van een ‘live’ kaartanimatie is weerinformatie, waarbij gebruikers
@@ -254,11 +194,12 @@ Een tekstuele transcriptie van een kaartanimatie geeft, in correcte volgorde, te
 visuele informatie. Het is een beproefd en effectief middel om welke kaartanimatie dan ook optimaal
 toegankelijk te maken.
 
+Zie [relevante eisen bij Kaarten met animatie op DigiToegankelijk.nl](https://www.digitoegankelijk.nl/uitleg-van-eisen/geo-informatie)
+
 #### Onderscheidbaar
 
-> Kleur wordt niet als het enige visuele middel gebruikt om informatie over te brengen, een actie aan te geven, tot een reactie op te roepen of een visueel element te onderscheiden.
->
-> Webrichtlijn IX - Richtlijn 1.4.1 (Webrichtlijnen versie 2 Normdocument, 2014)
+> 1.4.1 Gebruik niet alleen kleur maar ook nog andere visuele middelen om informatie over te dragen. (niveau A)
+> 1.4.3 Gebruik voor tekst voldoende contrast tussen voor- en achtergrondkleur. (niveau AA)
 
 Maak het voor gebruikers gemakkelijker om voorgrondinformatie te scheiden van de achtergrond.
 Presenteert u visuele informatie boven op een achtergrond? Zorg er dan voor dat die informatie dan
@@ -274,14 +215,6 @@ Gebruik naast kleur ook vorm. Bijvoorbeeld bij symbolen op een kaart. Zorg, in p
 groene cirkels, ook voor een andere vorm: gebruik rode cirkels en groene vierkantjes. Zorg ervoor dat de
 belangrijkste informatie (dus de informatie die door de kaart ontsloten wordt, en niet de kaart zelf) goed
 leesbaar is qua contrast.
-
-> De visuele weergave van tekst en afbeeldingen van tekst heeft een contrastverhouding van ten
-> minste 4,5:1”, behalve als: ”Tekst of afbeeldingen van tekst die deel zijn van een inactieve
-> component van de gebruikersinterface, die puur decoratief zijn, die voor niemand zichtbaar zijn, of
-> die onderdeel zijn van een afbeelding die significant andere visuele content bevat, hebben geen
-> contrasteis.
->
-> Webrichtlijn X - Richtlijn 1.4.3 (Webrichtlijnen versie 2 Normdocument, 2014)
 
 De eis over kleurcontrast gaat over de primaire content. Voor een achtergrondkaart heeft de contrast-eis
 vrijwel geen gevolgen. De meeste kaartachtergronden hebben tussen bijvoorbeeld straatnamen en
@@ -313,9 +246,9 @@ In deze paragraaf worden verschillende uitwerkingen van het principe bedienbaar 
 
 #### Toetsenbordbediening
 
-> _Nota bene oorspronkelijke eis mist in document_
->
-> Webrichtlijn XI - Richtlijn 2.1 (Webrichtlijnen versie 2 Normdocument, 2014)
+> 2.1.1 Zorg dat alle functies met alleen het toetsenbord te bereiken en gebruiken zijn. (niveau A)
+> 2.1.2 Voorkom dat een bezoeker die alleen het toetsenbord gebruikt vast komt te zitten en niet verder kan. (niveau A)
+> 2.4.7 Maak zichtbaar welk onderdeel van een pagina de focus heeft bij toetsenbordbediening. (niveau AA)
 
 De muis is een vanzelfsprekend middel voor de bediening van kaartfunctionaliteit. Maar niet iedereen kan
 op elk apparaat gebruikmaken van een muis. Voor een goede toegankelijkheid van een website is volledige
@@ -326,12 +259,12 @@ Vaak biedt een website functionaliteit (knoppen), waarmee de gebruiker de applic
 gegevens kan opvragen. Helaas is deze functionaliteit vaak niet (of niet volledig) te bedienen met het
 toetsenbord.
 
-> De [Risicokaart](http://nederland.risicokaart.nl/risicokaart.html) is een voorbeeld van een kaart die helemaal niet te bedienen is met het toetsenbord
-> (Risicokaart van Nederland, 2014)
+> De [Risicokaart](https://nederland.risicokaart.nl/) is een voorbeeld van een kaart die niet goed te bedienen is met het toetsenbord
+> (Risicokaart van Nederland, 2021)
 >
 > Voorbeeld - Risicokaart
 
-> [Ruimtelijke Plannen](https://www.ruimtelijkeplannen.nl/viewer/) is een voorbeeld van een webapplicatie waarvan de het formulier en kaart maar beperkt te bedienen zijn met het toetsenbord (Webapplicatie van ruimtelijke plannen, 2014).
+> [Ruimtelijke Plannen](https://www.ruimtelijkeplannen.nl/viewer/) is een voorbeeld van een webapplicatie waarvan het formulier en kaart maar beperkt te bedienen zijn met het toetsenbord (Ruimtelijkeplannen.nl, 2021).
 
 ##### Mogelijke oplossingen
 Met het toetsenbord moet de gebruiker zowel door de kaart zelf als door alle informatie-elementen kunnen
@@ -353,59 +286,44 @@ dat scheelt ook werk met het toegankelijk maken.
 >
 > Voorbeeld - Navigatie via het toetsenbord
 
-#### Genoeg tijd
+#### Genoeg tijd bij animaties
 
-> Geef gebruikers genoeg tijd om content te lezen en te gebruiken.
->
-> Webrichtlijn XII - Richtlijn 2.2 (Webrichtlijnen versie 2 Normdocument, 2014)
+> 2.2.1 Geef bezoekers de mogelijkheid om een tijdslimiet waarna automatisch iets gebeurt te verlengen of uit te zetten. (niveau A)
+> 2.2.2 Geef bezoekers de mogelijkheid om bewegende, scrollende, knipperende en automatisch verversende onderdelen te stoppen. (niveau A)
 
 Bij kaartanimaties is het belangrijk, dat de gebruiker de timing kan aanpassen en de animatie kan pauzeren,
 stoppen en verbergen. In paragraaf 2.2.2 leest u meer over kaartanimaties.
 
 #### Toevallen
 
-> Ontwerp content niet op een manier waarvan bekend is dat die toevallen veroorzaakt.
->
-> Webrichtlijn XIII - Richtlijn 2.3 (Webrichtlijnen versie 2 Normdocument, 2014)
+> 2.3.1 Laat elementen niet zodanig flitsen dat bezoekers er een toeval door kunnen krijgen. (niveau A)
 
-Zorg bij het automatisch afspelen van kaartanimaties ervoor, dat vlakken niet sneller veranderen dan 3 keer
-per seconde. Animeer kleine geografische eenheden en gebruik andere signaalkleuren dan de kleur rood.
-Accessibility besteedt op haar [website](https://www.accessibility.nl/kennisbank/webrichtlijnen2#algemene-flits-en-rodeflitsdrempelwaarden) aandacht aan algemene flits en rodeflitsdrempelwaarden
-(Webrichtlijnen 2 - Principes, richtlijnen en succescriteria (www.accessibility.nl), 2014). Over kaartanimaties
+Zorg bij het automatisch afspelen van kaartanimaties ervoor dat vlakken niet sneller veranderen dan 3 keer
+per seconde. Animeer kleine geografische eenheden en gebruik andere signaalkleuren dan de kleur rood. Over kaartanimaties
 staat meer informatie in paragraaf 2.2.2.
 
 ### Begrijpelijk
-In deze paragraaf worden verschillende uitwerkingen van het principe universeel uitgelegd.
+In deze paragraaf worden verschillende uitwerkingen van het principe begrijpelijk uitgelegd.
 
-#### Leesbaarheid en leesniveau
+#### Invoer en foutmeldingen
 
-> Maak tekstcontent leesbaar en begrijpelijk.
+> 3.3.1 Geef bij een verkeerd ingevuld formulierveld aan waar de fout zit en beschrijf wat er fout is. (niveau A)
+> 3.3.2 Geef duidelijke instructies bij invoervelden. (niveau A)
+> 3.3.3 Geef bij een verkeerd ingevuld formulierveld waar mogelijk suggesties ter verbetering. (niveau AA)
+
+> `(gui.layers.TilingLayer):Can't find the parent Map component.`
 >
-> Webrichtlijn XIV - Richtlijn 3.1 (Webrichtlijnen versie 2 Normdocument, 2014)
+> Voorbeeld Foutmelding gepresenteerd aan eindgebruiker door een geo-viewer
 
-> Als tekst, nadat eigennamen en titels verwijderd zijn, een leesvaardigheid vereist die hoger is dan het niveau van drie jaar middelbaar onderwijs, dan is aanvullende content beschikbaar, of er is een versie beschikbaar die geen leesvaardigheid vereist die hoger is dan van drie jaar middelbaar onderwijs.
->
-> Webrichtlijn XV - Richtlijn 3.1.5 (Webrichtlijnen versie 2 Normdocument, 2014)
-
-##### Kwestie
-Soms staat in deze ballonnen per ongeluk nog technische informatie, zoals identifiers, codes of afkortingen.
-Maar het kunnen ook (interne) beschrijvingen zijn, die niet begrijpelijk of relevant zijn voor de algemene
-gebruiker.
-
-##### Mogelijke oplossing
-Verwijder overbodige informatie als technische details of beschrijvingen voor intern gebruik. Besteed hier
-aandacht aan.
-
-#### Assistentie bij invoer
-> Help gebruikers om fouten te vermijden en ze te verbeteren
->
-> Webrichtlijn XVI - Richtlijn 3.3 (Webrichtlijnen versie 2 Normdocument, 2014)
+Het geven van bruikbare foutmeldingen is niet specifiek voor geo-informatie. Toch is dit ook belangrijk voor
+toepassingen die met geo-informatie werken. Denk bijvoorbeeld bij het zoeken van locaties via een formulier
+aan het geven van suggesties bij spelfouten (Bedoelde u...?), in plaats van het weergeven van ‘Geen
+resultaten’.
 
 Vraagt u een gebruiker om een adres in te voeren? Voorkom dan dat een onjuiste combinatie (van
 bijvoorbeeld straatnaam, woonplaats en postcode) een foutmelding oplevert. Als een woonplaats in
 meerdere gemeenten valt, dan kan de webapplicatie de gemeentenaam of provincienaam suggereren. Dit
 helpt de gebruiker om de juiste woonplaats te identificeren. Zie ook paragraaf 2.1.3.
 
-> Als een invoerfout automatisch ontdekt wordt en suggesties voor verbetering bekend zijn, dan worden de suggesties aan de gebruiker geleverd, tenzij dit de beveiliging of het doel van de content in gevaar zou brengen.
->
-> Webrichtlijn XVII - Richtlijn 3.3.3 (Webrichtlijnen versie 2 Normdocument, 2014)
+Ook het afvangen en omzetten van foutmeldingen van eventuele (externe) webservices is zinvol. Dan
+begrijpt de gebruiker wat er aan de hand is.

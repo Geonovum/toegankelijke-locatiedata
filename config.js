@@ -1,12 +1,12 @@
 //-------------------------------------------------------------------------------------
 var respecConfig =
 {
-  specStatus: "GN-DEF",
+  specStatus: "GN-WV",
   specType: "HR",
   format: "markdown",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2021-08-02",  	    // Format is "YYY-MM-DD"
+  // publishDate: "2021-08-02",  	    // Format is "YYY-MM-DD"
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   github: "https://github.com/geonovum/toegankelijke-locatiedata",
@@ -75,9 +75,9 @@ var respecConfig =
   },
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
-  //previousPublishDate: "2018-09-18",  	    // Format is "YYY-MM-DD"
+  previousPublishDate: "2021-08-02",  	    // Format is "YYY-MM-DD"
   //previousMaturity: "CV",                   // kies 1 van deze 2 regels
-  //previousMaturity: "VV",  	                // kies 1 van deze 2 regels
+  previousMaturity: "DEF",  	                // kies 1 van deze 2 regels
 
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
