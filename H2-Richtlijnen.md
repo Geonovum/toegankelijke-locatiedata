@@ -217,6 +217,7 @@ op de kaart getoond worden. En dat elementen die verder weg zijn, wel zichtbaar 
 hier een voorbeeld van.
 
 ![Punt 2 is dichterbij dan punt 3, maar wordt niet getoond op een normaal scherm](media/straal-kaart.png)
+
 Punt 2 is dichterbij dan punt 3, maar wordt niet getoond op een normaal scherm
 
 Bij het maken van een tekstuele variant van een visuele kaart is het goed om hier rekening mee te houden.
