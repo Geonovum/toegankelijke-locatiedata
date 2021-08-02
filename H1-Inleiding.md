@@ -1,9 +1,7 @@
 ## Inleiding
 
 <p class="warning" title="Verouderd document">
-<em>[Update 2021]</em> Dit document is de webversie van <a href="https://www.geonovum.nl/uploads/standards/downloads/20140112_HandreikingWRGEO2.0Beta.pdf">het PDF bestand van Webrichtlijnen en geo 2.0 bèta</a>, wat gebaseerd is op WCAG 2.0. Er zijn inmiddels <a href="https://www.digitoegankelijk.nl/">vernieuwde toegankelijkheidseisen en wetgeving over digitale toegankelijkheid</a>, gebaseerd op WCAG 2.1. Dit document is hier nog niet op aangepast.
-
-Dit document is tekstueel een 1-op-1 omzetting van het genoemde PDF bestand. Waar nodig zijn kleine aanpassingen aan de tekst en opmaak gedaan (bijvoorbeeld nummering en kopjes van paragrafen aangepast), de inhoud is niet veranderd.
+<em>[Update 2021]</em> Dit document is de webversie van <a href="https://www.geonovum.nl/uploads/standards/downloads/20140112_HandreikingWRGEO2.0Beta.pdf">het PDF bestand van Webrichtlijnen en geo 2.0 bèta</a>, wat gebaseerd is op WCAG 2.0. Dit document is een directe omzetting van het genoemde PDF bestand. Waar nodig zijn alleen kleine aanpassingen aan de tekst en opmaak gedaan (bijvoorbeeld nummering en kopjes van paragrafen aangepast), de inhoud is niet veranderd. Er zijn al enige tijd <a href="https://www.digitoegankelijk.nl/">vernieuwde toegankelijkheidseisen en wetgeving over digitale toegankelijkheid</a>, gebaseerd op WCAG 2.1. Dit document is hier nog niet op aangepast.
 </p>
 
 Eind 2013 publiceerde Geonovum in samenwerking met ICTU de eerste versie van de Handreiking Geo-
