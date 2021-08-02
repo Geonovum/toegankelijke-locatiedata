@@ -1,4 +1,11 @@
 ## Inleiding
+
+<p class="warning" title="Verouderd document">
+_update 2021_ Dit document is de webversie van [het PDF bestand van Webrichtlijnen en geo 2.0 bèta](https://www.geonovum.nl/uploads/standards/downloads/20140112_HandreikingWRGEO2.0Beta.pdf), wat gebaseerd is op WCAG 2.0. Er zijn inmiddels [vernieuwde toegankelijkheidseisen en wetgeving over digitale toegankelijkheid](https://www.digitoegankelijk.nl/), gebaseerd op WCAG 2.1. Dit document is hier nog niet op aangepast.
+
+Dit document is tekstueel een 1-op-1 omzetting van het genoemde PDF bestand. Waar nodig zijn kleine aanpassingen aan de tekst en opmaak gedaan (bijvoorbeeld nummering en kopjes van paragrafen aangepast), de inhoud is niet veranderd.
+</p>
+
 Eind 2013 publiceerde Geonovum in samenwerking met ICTU de eerste versie van de Handreiking Geo-
 informatie en Webrichtlijnen. Vragen over dit onderwerp vanuit het werkveld waren hiervoor de aanleiding.
 Continue ontwikkelingen in het domein van webrichtlijnen en geo-informatie maakten een update van de
@@ -26,4 +33,4 @@ We horen graag of dit document u geholpen heeft en of u verbeteringen weet aan t
 > _- Gary Gale (Gale, 2013)_
 
 ### Leeswijzer
-Hoofdstuk 1 is direct de samenvatting van dit document. De belangrijkste principes, vuistregels en adviezen leest u hier. In Hoofdstuk 2 lichten we de belangrijke eisen uit de webrichtlijnen toe voor geo-informatie, inclusief toegankelijkheidskwesties en mogelijke oplossingen. Hoofdstuk 3 laat zien hoe het hanteren van een gebruikersperspectief helpt bij het publiceren van geo-informatie. Hoofdstuk 4 biedt handvatten voor toegankelijkheidsuitdagingen voor specifieke soorten geo-informatie: lijn- en vlakinformatie, rasterkaarten en animaties. In Hoofdstuk 5 leest u alles over de webrichtlijnen. Het gebruik van de webrichtlijnen levert veel voordelen op voor uw digitale communicatie. Welke dat zijn, leest u in Hoofdstuk 6. Ten slotte biedt Hoofdstuk 7 een verantwoording voor dit document en het project.
+De belangrijkste principes, vuistregels en adviezen leest u in de [#abstract](Samenvatting). In [#H02](Hoofdstuk 2) lichten we de belangrijke eisen uit de webrichtlijnen toe voor geo-informatie, inclusief toegankelijkheidskwesties en mogelijke oplossingen. [#H03](Hoofdstuk 3) laat zien hoe het hanteren van een gebruikersperspectief helpt bij het publiceren van geo-informatie. [#H04](Hoofdstuk 4) biedt handvatten voor toegankelijkheidsuitdagingen voor specifieke soorten geo-informatie: lijn- en vlakinformatie, rasterkaarten en animaties. In [#H05](Hoofdstuk 5) leest u alles over de webrichtlijnen. Het gebruik van de webrichtlijnen levert veel voordelen op voor uw digitale communicatie. Welke dat zijn, leest u in [#H06](Hoofdstuk 6). Ten slotte biedt [#H07](Hoofdstuk 7) een verantwoording voor dit document en het project.

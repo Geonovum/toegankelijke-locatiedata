@@ -5,12 +5,12 @@ Daarnaast maken het web en het medialandschap (met de opkomst van smartphones en
 grote veranderingen door. Deze argumenten zijn nog steeds valide en wij hebben daarom
 besloten om een geüpdatete versie uit te brengen.
 
-De nieuwe versie van de handreiking (2.0 Bèta) is grotendeels gebaseerd op de eerste versie. De grootste
+Deze versie van de handreiking (2.0 Bèta) is grotendeels gebaseerd op de eerste versie. De grootste
 verschillen ten opzichte van de handreiking uit 2013 zijn:
 
 * Op een aantal punten zijn opmerkingen uit het veld verwerkt en zijn zaken geactualiseerd;
 * Deze handreiking heeft een nog praktischere insteek met onder andere handvatten en codevoorbeelden;
-( Deze handreiking is verder gebracht in nauwe samenwerkingen met betrokkenen bij het toepassingskader (Toepassingskader: Toegankelijkheid voor iedereen, 2014) om zo beter aan te sluiten bij de praktijk en in de toekomst integratie mogelijk te maken.
+* Deze handreiking is verder gebracht in nauwe samenwerkingen met betrokkenen bij het toepassingskader (Toepassingskader: Toegankelijkheid voor iedereen, 2014) om zo beter aan te sluiten bij de praktijk en in de toekomst integratie mogelijk te maken.
 
 ### Opdracht en doelstelling
 
@@ -19,7 +19,7 @@ doen naar de praktische problemen van de toepassing van de webrichtlijnen bij he
 informatie. Doel was het publiceren van een aantal praktijkgerichte conclusies, aanbevelingen en
 handvatten. Samen met ICTU startte Geonovum daarom met het project 'Handreiking webrichtlijnen & Geo-
 informatie'. Het projectteam bestond uit Theo Overduin (projectleider), Victor Zuydweg, Thijs Brentjens,
-Sjors Slaats en Edward Mac Gillavry. Hetzelfde team is verantwoordelijk voor deze nieuwe versie.
+Sjors Slaats en Edward Mac Gillavry. Hetzelfde team is verantwoordelijk voor deze versie.
 
 **Theo Overduin** is senior projectleider / adviseur bij Geonovum. Eén van zijn drijfveren is excellente
 dienstverlening door overheden aan burgers en bedrijven en het toepassen hierbij van geo-informatie. Theo
