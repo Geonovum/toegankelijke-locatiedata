@@ -1,4 +1,4 @@
-## Bijlage: Infographics
+## Afbeeldingen
 
 De onderstaande afbeeldingen zijn een grafische weergave van de principes en adviezen en van fabels en feiten.
 
