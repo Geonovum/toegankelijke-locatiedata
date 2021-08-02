@@ -1,4 +1,4 @@
-## Bijlage: Tools, validators en hulpmiddelen
+## Tools, validators en hulpmiddelen
 Om de verschillende elementen van toegankelijkheid te controleren, zijn er online hulpmiddelen. Deze
 kunnen problemen opsporen en suggesties geven hoe ze te verbeteren.
 

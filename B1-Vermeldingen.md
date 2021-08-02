@@ -1,4 +1,4 @@
-## Bijlage: Vermeldingen gebruikte materialen
+## Vermeldingen gebruikte materialen
 
 Rechten vrije stockfoto's van [stock.xchng / sxc.hu](https://www.scx.hu/):
 * 'Folded map' van yirsh

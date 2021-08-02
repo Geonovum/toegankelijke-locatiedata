@@ -1,4 +1,4 @@
-## Bijlage: Praktijkvoorbeelden
+## Praktijkvoorbeelden
 Deze bijlage geeft een inventarisatie van websites die geo-informatie publiceren en in enige mate
 voldoen aan de webrichtlijnen. Al deze websites staan op de lijst van waarmerkdragers op
 Drempelvrij.nl (Waarmerk behaald hele website, 2014) en zijn gekeurd door gecertificeerde
