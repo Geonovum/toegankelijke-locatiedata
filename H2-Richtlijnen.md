@@ -1,5 +1,5 @@
 ## De richtlijnen toegelicht voor geo
-In dit hoofdstuk beschrijven we de belangrijkste toegankelijkheidseisen en lichten die toe voor geo-informatie. We doen dit aan de hand van de toegankelijkheidseisen zoals beschreven op [digitoegankelijk.nl](https://https://www.digitoegankelijk.nl/). Deze eisen komen voort uit de Web Content Accessibility Guidelines (WCAG) versie 2.1, hierna aangeduid met [[WCAG21]].
+In dit hoofdstuk beschrijven we de belangrijkste toegankelijkheidseisen en lichten die toe voor geo-informatie. We doen dit aan de hand van de toegankelijkheidseisen zoals beschreven op [digitoegankelijk.nl](https://www.digitoegankelijk.nl/uitleg-van-eisen/geo-informatie). Deze eisen komen voort uit de Web Content Accessibility Guidelines (WCAG) versie 2.1, hierna aangeduid met [[WCAG21]].
 
 Er is ook [een Nederlandse versie van deze richtlijnen](https://www.w3.org/Translations/WCAG21-nl/) beschikbaar.
 
@@ -7,13 +7,10 @@ De eisen van [[WCAG21]] kennen verschillende niveaus van conformiteit: A, AA, AA
 
 Voor geo-informatie / locatiedata gelden echter uitzonderingen. Wij raden desondanks aan om aan de eisen te voldoen, zodat webpagina's en apps met locatiedata te gebruiken zijn voor een zo groot mogelijke groep. We beschrijven de eisen hieronder voor niveau A of AA. Waar niveau AAA relevant is, noemen we dat expliciet.
 
-**TODO: of indeling hanteren van digitoegankelijk.nl?**
 We hanteren in dit hoofdstuk een indeling op basis van de principes waarneembaar, bedienbaar en begrijpelijk. Van elk principe komen de belangrijkste eisen aan bod. Per eis belichten we aandachtspunten, veelvoorkomende toegankelijkheidskwesties en suggesties voor oplossingen. We hanteren de nummering van eisen zoals in het originele [[WCAG21]] document. Daarnaast zijn er enkele algemene, universele zaken die kunnen helpen bij het toegankelijk aanbieden van geo-informatie. Deze behandelen we eerst.
 
-Gebruik van noemen: **https://www.digitoegankelijk.nl/uitleg-van-eisen/geo-informatie**
-
 ### Universele zaken
-In deze paragraaf worden enkele universele zaken uitgelegd, die kunnen helpen bij het toegankelijk maken van websites en toepassingen met locatiedata.
+In deze paragraaf worden enkele universele zaken uitgelegd, die kunnen helpen bij het toegankelijk maken van websites en toepassingen met locatiedata. Dit zijn niet direct toegankelijkheidseisen.
 
 #### Gelaagd bouwen
 Gelaagd bouwen betekent dat een website zodanig gelaagd is opgebouwd, dat iedereen gegarandeerd
@@ -68,7 +65,7 @@ beantwoorden.
 In paragraaf 2.4.2 leest u meer over het bieden van hulp bij het invullen van formulieren om fouten te
 vermijden.
 
-#### iFrames en kaarten: integratie in webpagina's
+#### iFrames en kaarten: opnemen van kaartapplicaties in webpagina's
 Geografische webapplicaties worden nog steeds vaak als zelfstandige applicaties ontwikkeld, met eigen tooling en los
 van bestaande Content Management Systemen (CMS). Met als gevolg dat een iFrame gebruikt wordt om de
 geografische webapplicatie ‘in te lezen’ in het CMS. Met zo’n iFrame reserveert het CMS een vaste plek op
@@ -104,12 +101,10 @@ genereren.
 Zie [Techniek en code op DigiToegankelijk.nl](https://www.digitoegankelijk.nl/uitleg-van-eisen/techniek-en-code) voor een algemene uitleg.
 
 ##### Kwestie
-Het komt geregeld voor, dat deze code niet volledig voldoet aan webstandaarden. Daardoor is uw website
-niet optimaal toegankelijk.
+Het komt geregeld voor, dat deze code niet volledig voldoet aan webstandaarden. Daardoor is uw website niet optimaal toegankelijk.
 
 ##### Mogelijke oplossing
-Het is verstandig om uw website hierop te toetsen, bijvoorbeeld met online validators. In Bijlage 3 vindt u
-een aantal aanbevolen validators.
+Het is verstandig om uw website hierop te toetsen, bijvoorbeeld met online validators. In Bijlage 3 vindt u een aantal aanbevolen validators.
 
 ### Toegankelijkheidseisen voor geo-informatie
 Op [de webpagina over geo-informatie van digitoegankelijk.nl](https://www.digitoegankelijk.nl/uitleg-van-eisen/geo-informatie) staan toegankelijkheidseisen die (extra) aandacht vragen bij toepassingen met locatiedata. De volgende paragrafen behandelen de eisen die specifiek voor geo-informatie exta aandacht (kunnen) vragen. Als eisen een nummer bevatten, is dat het nummer zoals bij [[WCAG21]] gehanteerd wordt. Digitoegankelijk.nl gebruikt deze nummering ook.
