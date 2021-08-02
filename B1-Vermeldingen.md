@@ -1,6 +1,6 @@
 ## Bijlage: Vermeldingen gebruikte materialen
 
-Rechten vrije stockfoto's van stock.xchng (sxc.hu):
+Rechten vrije stockfoto's van [stock.xchng / sxc.hu](https://www.scx.hu/):
 * 'Folded map' van yirsh
 * 'Monitor 3' van sundesigns
 * 'Porcelain Houses' van tlobker
@@ -8,4 +8,4 @@ Rechten vrije stockfoto's van stock.xchng (sxc.hu):
 * 'Levitation 3' van bizior
 * 'chalk board' van ilk
 
-Verschillende iconen van The Noun Project (https://www.thenounproject.com)
+Verschillende iconen van [The Noun Project](https://www.thenounproject.com)
