@@ -2,11 +2,11 @@
 
 Presentatie van geo-informatie, locatie-invoer en kaartfunctionaliteit
 
-Dit hoofdstuk biedt praktische oplossingsrichtingen om geo-informatie op een toegankelijke
+Dit hoofdstuk biedt praktische oplossingsrichtingen om locatiedata op een toegankelijke
 manier in te zetten in de online communicatie en transacties tussen overheden en burgers en het
 bedrijfsleven. Door de bijbehorende beslisboom te doorlopen wordt de keuze voor een specifieke
 oplossingsrichting gemaakt. De vraaggerichte aanpak die in Hoofdstuk 3 is gepresenteerd vormt
-hierbij de belangrijkste invalshoek voor het doorlopen van de beslisboom(In de eerste stap van
+hierbij de belangrijkste invalshoek voor het doorlopen van de beslisboom. In de eerste stap van
 de beslisboom stel je vast wie de centrale bron of hoofdrolspeler in de uitwisseling van geo-
 informatie is. Wil een organisatie enerzijds geografische informatie online presenteren of moet
 een burger of bedrijf een geografische locatie invoeren om een transactie met een organisatie
@@ -17,14 +17,14 @@ uit te voeren.
 Beslisboom
 
 In paragraaf 4.1 wordt ingegaan op de oplossingsrichtingen om als
-organisatie geografische informatie te presenteren. In paragraaf 4.2 staat het invoeren van een geografische
+organisatie locatiedata te presenteren. In paragraaf 4.2 staat het invoeren van een geografische
 locatie centraal. Ten slotte biedt paragraaf 4.3 een aantal handvatten om een interactieve kaart op een
 toegankelijke manier aan te bieden. De paragrafen bevatten verwijzingen naar code voorbeelden. Alle
 voorbeelden zijn online te vinden op de [Github pagina van Geonovum met Code voorbeelden Webrichtlijnen en
 Geo-informatie, 2014](https://github.com/Geonovum/Webrichtlijnen-Geo).
 
 ### Geo-informatie presenteren
-Nadat is vastgesteld, dat de organisatie, die geografische informatie online wil presenteren de hoofdrolspeler
+Nadat is vastgesteld dat de organisatie, die locatiedata online wil presenteren, de hoofdrolspeler
 is, is het van belang om de aard van geografische informatie te bepalen. Wat wil je presenteren?
 
 In paragraaf 4.1.1 worden toegankelijke oplossingsrichtingen geboden voor afbeeldingen zoals luchtfoto's,
@@ -40,15 +40,15 @@ geografische objecten zoals locaties, trajecten, routes, regio's en gebieden.
 Sommige geo-informatie is alleen als een afbeelding beschikbaar en bevat het de primaire informatielaag.
 Een voorbeeld is een gedigitaliseerde, (ingescande) [historische kaart](http://kaart.nijmegen.nl/historie/) ( (Historische Atlas Nijmegen, 2014).
 In dat geval moet u een toegankelijk alternatief aanbieden. Maar het is ondoenlijk om de volledige inhoud
-van zo’n kaart in een tekstvorm te gieten.
+van zo’n kaart in een tekstvorm te gieten. Er zijn dingen die u wel kunt doen.
 
 ###### Aanpak
 * Beschrijf het gebied dat is afgebeeld, wie de maker is en wanneer de kaart is gepubliceerd.
 * Beschrijf de algemene boodschap of het ruimtelijke patroon van de kaart.
 * Let op toegankelijke kaartnavigatie (paragraaf 4.3.1).
-* (Let op toegankelijke cartografie (paragraaf 4.3.2).
+* Let op toegankelijke cartografie (paragraaf 4.3.2).
 
-De [Nationale Atlas Volksgezondheid](http://www.zorgatlas.nl/gezondheid-en-ziekte/ziekten-en-aandoeningen/infectieziekten/mazelen-2013/) past deze aanpak toe (Mazelen 2013-2014, 2014). De beschrijving
+[Volksgezondheidenzorg.info](https://www.volksgezondheidenzorg.info) past deze aanpak toe, zie de kaarten. Bijvoorbeeld: [een kaart over levensverwachting](https://www.volksgezondheidenzorg.info/onderwerp/levensverwachting/regionaal-internationaal/bij-geboorte#node-levensverwachting-bij-geboorte-gemeente). De beschrijving
 naast de kaart vertelt de boodschap die in kaart geografisch wordt gepresenteerd.
 
 ##### Wegenkaart, luchtfoto's en satellietbeelden: achtergrond ter oriëntatie
@@ -79,9 +79,7 @@ wanneer ongeveer en hoeveel.
 
 #### Animaties
 Animaties zijn een krachtige en aantrekkelijke manier om veranderingen in ruimtelijke patronen te laten
-zien. Dat geldt ook voor animaties met locatiegebonden gegevens. De televisieserie [Nederland van boven](http://www.vpro.nl/nederland-van-boven/alle-datavisualisaties.html)
-(datavisualisaties Nederland van Boven, 2014) maakt bijvoorbeeld veel gebruik van animaties om bepaalde
-verschijnselen inzichtelijk te maken. Vaak gaat het bij animaties om visualisatie van grote hoeveelheden
+zien.Dat geldt ook voor animaties met locatiegebonden gegevens. Vaak gaat het bij animaties om visualisatie van grote hoeveelheden
 gegevens.
 
 ###### Aanpak
@@ -102,26 +100,26 @@ nu en het eindjaar te zien.
 #### Objecten
 Veel organisaties willen locaties die een vestigingsadres hebben online presenteren, zoals bijvoorbeeld de
 vestigingen van de openbare bibliotheken, de wijkkantoren van de gemeente of tijdelijke wegopbrekingen.
-Bedenk, dat bezoekers meestal niet geïnteresseerd zijn in de wegopbrekingen zelf, maar in een alternatieve
+Bedenk dat bezoekers meestal niet geïnteresseerd zijn in de wegopbrekingen zelf, maar in een alternatieve
 route, die de wegopbrekingen omzeilt!
 
 _Voorbeelden_
 
 Overzicht locaties ministeries via HTML en CSS:
 
-* [Code voor tonen locaties via HTML en CSS](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/overzichtministeries-CSS) (Overzichtministeries-CSS, 2014)
-* [Werkend voorbeeld voor tonen locaties via HTML en CSS](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/overzichtministeries-CSS/index.html) (Overzicht ministeries, 2014)
+* [Code voor tonen locaties via HTML en CSS](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/overzichtministeries-CSS) (Overzichtministeries-CSS)
+* [Werkend voorbeeld voor tonen locaties via HTML en CSS](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/overzichtministeries-CSS/index.html) (Overzicht ministeries)
 
 
 Overzicht locaties ministeries via HTML lijst, data attributen en interactieve kaart:
 
-* [Code voor tonen locaties via HTML lijst, data attributen](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/overzichtministeries-HTMAPL) (Overzichtministeries-HTMAPL, 2014)
-* [Werkend voorbeeld voor tonen locaties via HTML lijst, data attributen](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/overzichtministeries-HTMAPL/index.html) (Overzicht ministeries (met HTMAPL), 2014)
+* [Code voor tonen locaties via HTML lijst, data attributen](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/overzichtministeries-HTMAPL) (Overzichtministeries-HTMAPL)
+* [Werkend voorbeeld voor tonen locaties via HTML lijst, data attributen](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/overzichtministeries-HTMAPL/index.html) (Overzicht ministeries (met HTMAPL))
 
 Openbare toiletten:
 
-* [Code voor tonen locaties uit gegevensbestand op een lijst en op een interactieve kaart via Javascript](https://github.com/Geonovum/Webrichtlijnen-Geo/blob/master/openbaretoiletten/toiletten.html) (Openbaretoiletten - toiletten.html, 2014)
-* [Werkend voorbeeld voor tonen locaties uit gegevensbestand op een lijst en op een interactieve kaart via Javascript](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/openbaretoiletten/toiletten.html) (Voorbeeld Openbare toiletten Nijmegen - toegankelijke informatie en kaart, 2014)
+* [Code voor tonen locaties uit gegevensbestand op een lijst en op een interactieve kaart via Javascript](https://github.com/Geonovum/Webrichtlijnen-Geo/blob/master/openbaretoiletten/toiletten.html) (Openbaretoiletten - toiletten.html)
+* [Werkend voorbeeld voor tonen locaties uit gegevensbestand op een lijst en op een interactieve kaart via Javascript](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/openbaretoiletten/toiletten.html) (Voorbeeld Openbare toiletten Nijmegen - toegankelijke informatie en kaart)
 
 Ontwikkelingen in de infrastructuur, de bereikbaarheid en doorstroming zijn thema's die zich door hun vaak
 tijdelijke karakter voor lenen om online over te communiceren. Denk hierbij aan strooiroutes, de route van
@@ -130,8 +128,8 @@ bezoekers meestal niet zozeer geïnteresseerd zijn in de daadwerkelijke route va
 gladheid, maar in een route die zoveel mogelijk gebruik maakt van gestrooide wegvakken.
 
 * Voorbeeld: Carnavalsoptocht uit een GeoJSON bestand
-  * [Code voor route](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/carnavalsoptocht) (carnavalsoptocht, 2014)
-  * [Werkend voorbeeld voor route](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/carnavalsoptocht/index.html) (Carnavalsoptocht, 2014)
+  * [Code voor route](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/carnavalsoptocht) (carnavalsoptocht)
+  * [Werkend voorbeeld voor route](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/carnavalsoptocht/index.html) (Carnavalsoptocht)
 
 Kaarten tonen vaak informatie over regio's zoals buurten, wijken, gemeenten, waterschappen of GGD-
 regio's, die een duidelijke naam en begrenzing hebben. De tekstuele benaming ervan volstaat ('Het is
@@ -141,24 +139,24 @@ ruimtelijke analyse wordt door een online GIS-systeem uitgevoerd, zodat de bezoe
 interpretatie uitvoeren.
 
 Voorbeeld: Provinciegrenzen met daaraan gekoppelde gegevens
-* [Code voor provinciegrenzen met daaraan gekoppelde gegevens via een HTML areamap](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/nederland-areamap) (Nederland-areamap, 2014)
-* [Werkend voorbeeld voor provinciegrenzen met daaraan gekoppelde gegevens via een HTML areamap](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/nederland-areamap/index.html) (Nederland, 2014)
+* [Code voor provinciegrenzen met daaraan gekoppelde gegevens via een HTML areamap](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/nederland-areamap) (Nederland-areamap)
+* [Werkend voorbeeld voor provinciegrenzen met daaraan gekoppelde gegevens via een HTML areamap](https://rawgit.com/Geonovum/Webrichtlijnen-Geo/master/nederland-areamap/index.html) (Nederland)
 
 Voorbeeld: Natura2000, antwoorden of een locatie in een bepaald gebied valt of niet (tekstueel
 beantwoorden)
-* [Code voor antwoorden of een locatie in een bepaald gebied valt of niet (tekstueel beantwoorden geografische vraag)](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/natura2000) (Natura2000, 2014)
+* [Code voor antwoorden of een locatie in een bepaald gebied valt of niet (tekstueel beantwoorden geografische vraag)](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/natura2000) (Natura2000)
 
 ###### Aanpak
 * Tot 10 locaties, routes of gebieden: presenteer een lijst
-* Meer dan 10: filter de lijst
+* Meer dan 10: presenteer een lijst die te filteren is, of waarbij via groepering de lijst overzichtelijker is
 * Gedeelten van infrastructuur: geef dan aan tussen welke kruisingen (bruggen) of ter hoogte van welk adres wordt begonnen of gestopt
-* Sorteer de lijst alfabetisch op naam, niet geografisch
+* Sorteer de lijst alfabetisch, bijvoorbeeld op naam of datum, niet geografisch
 * Een kaart met de locaties, routes of regio's kan ter oriëntatie worden toegevoegd.
 
 ##### Objecten zonder adres
 Niet alle objecten hebben een duidelijk vestigingsadres. Denk bijvoorbeeld aan oplaadpunten voor elektrisch
 rijden, de hondenuitlaatstroken in uw gemeente of de verschillende tariefzones voor betaald parkeren.
-Bedenk, dat deze objecten als je ter plaatse bent, markant genoeg zijn, zodat deze objecten in de meeste
+Bedenk dat deze objecten, als je ter plaatse bent, markant genoeg zijn, zodat deze objecten in de meeste
 gevallen vanaf het dichtstbijzijnde adres, straat of gebied (bijvoorbeeld in een park) te vinden is. Een kaart
 met de exacte locaties kan als extra informatie worden toegevoegd.
 
@@ -193,12 +191,10 @@ hij bruin glas, klein chemisch afval of puin kwijt kan.
 * Gebruik duidelijk herkenbare namen: maak woonplaatsnamen en gemeentenamen uniek en gebruik geen organisatie-specifieke indelingen
 * Filter op eigenschappen van de locaties
 
-Voor het sorteren en filteren is ruimtelijke functionaliteit dus niet altijd nodig. Desalniettemin is het handig
+Voor het sorteren en filteren is ruimtelijke functionaliteit dus niet altijd nodig. Desalniettemin is het soms handig
 om een lijst op afstand te sorteren: van dichtbij naar veraf. De gebruiker moet hiervoor wel zijn locatie
 opgeven (zie paragraaf 4.2). Filteren op locatie (bijvoorbeeld: Wat is het dichtstbijzijnde station?) kan ook:
 dat kunt u doen met geocoderen en een zoekopdracht.
-
-> Diverse websites maken gebruik van ruimtelijk sorteren. Een voorbeeld vindt u de website [supermarktindebuurt.nl](http://www.supermarktindebuurt.nl/) (Supermarkt in de buurt, 2014).
 
 ##### Pagina met locatiespecifieke informatie
 Geef informatie over de afzonderlijke objecten die in een lijst worden gepresenteerd en ter oriëntatie op een
@@ -208,10 +204,10 @@ vergroot u bovendien de vindbaarheid van de informatie door zoekmachines.
 
 ### Invoer van locatie
 Het zoeken van een locatie via een adres of plaatsnaam is vaak belangrijk. Deze manier van locaties zoeken
-heet ook wel geocoding. Door Google Maps zijn gebruikers gewend dat dit op een slimme manier gebeurt,
+heet ook wel _geocoding_. Door Google Maps zijn gebruikers gewend dat dit op een slimme manier gebeurt,
 rekening houdend met spelfouten en alternatieve schrijfwijzen. Online kaartplatformen bieden (via hun
-API's) geocoding aan. PDOK heeft een geocoder die gebruik maakt van de Basisregistratie Adressen en
-gebouwen (BAG Geocodeerservice, 2014). Deze geocoder kan ook met alternatieve schrijfwijzen omgaan
+API's) geocoding aan. [PDOK](https://www.pdok.nl/pdok-locatieserver) biedt een geocoder die gebruik maakt van de Basisregistratie Adressen en
+gebouwen. Deze geocoder kan ook met alternatieve schrijfwijzen omgaan
 en suggesties teruggeven bij spelfouten. Met geocoderen kunt u dus via tekstuele invoer de locatie bepalen
 waarin de gebruiker geïnteresseerd is.
 
@@ -232,8 +228,8 @@ aan bij de vraag van de gebruiker.
 1. Met behulp van een geocodeerservice wordt vervolgens de locatie bij het adres gezocht
 1. De meest voorkomende meetwaarde of modelwaarde op de gevonden locatie wordt als tekst gepresenteerd.
 
-* Voorbeeld: Natura2000 gebied
-  - [Code voor antwoorden of een locatie in een bepaald gebied valt of niet (tekstueel beantwoorden)](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/natura2000)
+Voorbeeld: Natura2000 gebied
+* [Code voor antwoorden of een locatie in een bepaald gebied valt of niet (tekstueel beantwoorden)](https://github.com/Geonovum/Webrichtlijnen-Geo/tree/master/natura2000)
 
 #### Adres of plaatsnaam is niet voldoende: aanvullende gegevens nodig
 
@@ -250,8 +246,8 @@ toegankelijkheidsproblemen voorkomen door eerst de gebruikersvraag (tekstueel) t
 pas aandacht aan de kaart te besteden.
 
 De kaart kan dan op verschillende manieren een goede aanvulling zijn op de presentatie van zoekresultaten:
-1. **Statisch.** De kaart is dan een extra presentatiemiddel voor de informatie [Alternatieve tekst: grafieken en plattegronden] (http://www.webrichtlijnen.nl/aan-de-slag/alternatieve-grafieken-plattegronden#plattegronden). De meeste online kaartplatformen kunnen zo'n statische kaart eenvoudig genereren. Ook met bepaalde webservices (bijvoorbeeld een Web Map Service) kunt u een relatief simpel kaartje als afbeelding opvragen.
-1. **Afbeelding met beperkte functionaliteit.** Een lijst met zoekresultaten kunt u vaak afbeelden op een 'klikbare' kaart, bijvoorbeeld met HTML en CSS. Waterschap Zuiderzeeland beeldt zo informatie over projecten af op een statische kaart.
+1. **Statisch.** De kaart is dan een extra presentatiemiddel voor de informatie. De meeste online kaartplatformen kunnen zo'n statische kaart eenvoudig genereren. Ook met bepaalde webservices (bijvoorbeeld een Web Map Service) kunt u een relatief simpel kaartje als afbeelding opvragen.
+1. **Afbeelding met beperkte functionaliteit.** Een lijst met zoekresultaten kunt u vaak afbeelden op een 'klikbare' kaart, bijvoorbeeld met HTML en CSS of HTML en SVG.
 1. **Een interactieve kaart, met in/uitzoomen**, verschuiven en selectie/filtering van gegevens via de kaart. Veel gebruikers vinden dit een aantrekkelijke manier van presenteren. Zij kunnen zo'n kaart vaak ook intuïtief goed bedienen. De gebruiker filtert zelf de gegevens door in- en uit te zoomen, of door de kaart te verschuiven. De resultaten worden dan steeds aangepast aan het zichtbare gebied op de kaart. Dit kan handig zijn als meerdere resultaten dicht bij elkaar liggen. Een voorbeeld van deze aanpak is de publicatie van lokale bekendmakingen op Overheid.nl (Voorbeeld 23 – Overheid.nl – Bekendmakingen).
 
 #### Pannen en zoomen
@@ -295,12 +291,10 @@ en kleurenblinden, maar ook voor gebruikers op een computer met een ouder beelds
 beeldschermen zijn over het algemeen slechter in het weergeven van kleur. Een mogelijk gevolg is dan dat
 lichtgrijze tekst of gebieden in de kaart helemaal niet meer zichtbaar zijn.
 
-Je kunt de contrastwaarde zelf berekenen met behulp van een contrastwaarde hulpmiddel. De simpelste
-versie is [contrast ratio op Github](http://leaverou.github.com/contrast-ratio/) (Contrast ratio, 2014). In dit hulpmiddel kun je twee kleuren opgeven. Je krijgt dan direct de contrastwaarde te zien.
+Je kunt de contrastwaarde zelf berekenen met behulp van een contrastwaarde hulpmiddel. Bijvoorbeeld [de ColorContrast Checker](https://coolors.co/contrast-checker/). In dit hulpmiddel kun je twee kleuren opgeven. Je krijgt dan direct de contrastwaarde te zien.
 
 #### Download
 Bied de geografische gegevens als download service / downloadbaar bestand aan. Uw huidige online GIS-viewer is erg moeilijk 1-
 op-1 en voor 100% toegankelijk te maken. Een vergelijkbare ervaring en rijkdom aan functionaliteit
 toegankelijk aanbieden is te kostbaar. Daarnaast kan uw organisatie nooit anticiperen op alle ruimtelijke
-vragen van bezoekers. Door de geografische gegevens als download aan te bieden kunnen bezoekers zelf
-de gegevens analyseren, bevragen en vormgeven.
+vragen van bezoekers. Door de geografische gegevens als download aan te bieden kunnen bezoekers die behoefte hebben aan meer geavanceerde analyses zelf de gegevens analyseren, bevragen en vormgeven.

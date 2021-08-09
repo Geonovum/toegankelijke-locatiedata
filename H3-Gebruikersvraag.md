@@ -4,7 +4,7 @@ Suggesties voor een andere aanpak bij het ontsluiten van locatiegebonden informa
 
 Locatiegebonden informatie toegankelijk maken voor iedereen kan een lastige opgave zijn. Een
 hele werkbare aanpak is de vraaggerichte aanpak: stel de gebruikersvraag centraal, probeer die
-(tekstueel) te beantwoorden en beslis daarna pas welk middel het meest geschikt is om de
+eerst tekstueel / in woorden te beantwoorden en beslis daarna pas welk middel het meest geschikt is om de
 gevraagde informatie te presenteren. Beperk de informatie en functionaliteit tot wat nodig is om
 de vraag te beantwoorden.
 
@@ -19,20 +19,20 @@ uiteraard ook een rol.
 
 ### Het aanbod centraal
 Een geografische webapplicatie met een interactieve kaart is voor veel overheidsorganisaties dé manier om
-locatie informatie online te publiceren. De kaart vormt een visueel aantrekkelijke manier om zoveel gegevens
+locatiedata online te publiceren. De kaart vormt een visueel aantrekkelijke manier om veel gegevens
 aan te bieden. Deze geografische webapplicaties bieden gebruikers bovendien veel mogelijkheden om de
-kaart aan te passen. De rijkdom aan functionaliteit maakt het lastig en kostbaar om een toegankelijk
-alternatief te maken, dat aan de webrichtlijnen voldoet. Hierdoor ontstaat het beeld dat webrichtlijnen en
-geo-informatie onverenigbaar zijn.
+kaart aan te passen. De rijkdom aan functionaliteit maakt het lastig en kostbaar om de informatie toegankelijk te ontsluiten. Hierdoor ontstaat het beeld dat geo-informatie en toegankelijkheid botsen.
 
-> Waarom zou een gebruiker geïnteresseerd zijn in een kaart met allerlei datasets door elkaar heen? De praktijk toont aan dat specifieke themakaarten meer bezoekers krijgen dan kaartportals. Volgens dit voorbeeld worden in Denver thematische kaarten bijvoorbeeld drie keer meer bezocht dan portals (bron: [How the Public Actually Uses Local Government Web Maps: Metrics from Denver, 2012](http://mapbrief.com/2012/08/01/how-the-public-actually-uses-local-government-web-maps-metrics-from-denver/)). De meeste bezoekers blijven kort op de website en willen slechts antwoord op hun ene vraag en verdwijnen weer van de pagina [Why Map Portals Don’t Work, 2013](http://mapbrief.com/2013/02/05/why-map-portals-dont-work-part-i/).
+> Waarom zou een gebruiker geïnteresseerd zijn in een kaart met allerlei datasets door elkaar heen? De praktijk toont aan dat specifieke themakaarten meer bezoekers krijgen dan kaartportals. Hoewel al enkele jaren oud, is het volgende voorbeeld nog steeds actueel. Het beschrijft hoe in Denver thematische kaarten drie keer meer bezocht worden dan portals (bron: [How the Public Actually Uses Local Government Web Maps: Metrics from Denver, 2012](http://mapbrief.com/2012/08/01/how-the-public-actually-uses-local-government-web-maps-metrics-from-denver/)). De meeste bezoekers blijven kort op de website en willen slechts antwoord op hun ene vraag en verdwijnen weer van de pagina.
+>
+> [Why Map Portals Don’t Work, 2013](http://mapbrief.com/2013/02/05/why-map-portals-dont-work-part-i/).
 
 Deze aanbodgerichte aanpak is begrijpelijk. Het sluit aan bij de gangbare en beschikbare middelen om geo-
 informatie online te publiceren. Door alle gegevens in één keer op een kaart af te beelden, denkt de
 organisatie wellicht, dat zij daarmee aan bepaalde wettelijke eisen of transparantie doelstellingen voldoet.
 De gebruikers kunnen immers bij de gegevens: zij kunnen uitzoeken wat zij nodig hebben.
 
-Op deze manier publiceer je een soort ‘digitale atlas’. De verwachting daarbij is, dat gebruikers deze rustig
+Op deze manier publiceer je een soort ‘digitale atlas’. De (onbewuste) verwachting daarbij is dat gebruikers deze rustig
 doorbladeren, op zoek naar dat ene gegeven. Zo wordt het web niet primair gebruikt: zo'n geografische
 webapplicatie sluit niet aan bij de diversiteit van gebruikers en middelen. Denk alleen al aan alle mogelijke
 apparaten en momenten waarop gebruikers informatie online opzoeken. Wie kan bijvoorbeeld op zijn
@@ -63,7 +63,7 @@ Neck”-theorie van Gerry McGovern. Deze 5 taken staan voor 25 procent van de aa
 klanttevredenheid. Door de website te richten op deze zogenaamde top-taken krijg je een meer klantgerichte
 website en creëer je een positieve gebruikerservaring.
 
-Geo-informatie moet gebruik maken van deze wetenschap en aansluiten bij de gebruikersvraag In veel
+Geo-informatie moet gebruik maken van deze wetenschap en aansluiten bij de gebruikersvraag. In veel
 gevallen is een atlas niet de echte gebruikersvraag. Veel vragen over locatiegebonden informatie gaan over
 de locatie van de gebruiker. In het algemeen is het huisadres van een burger of het vestigingsadres van een
 bedrijf dus een goed startpunt en handige (zoek)ingang. Daarbij is het in de meeste gevallen handig om
@@ -72,6 +72,12 @@ naar één thema tegelijk te kijken. De volgende voorbeelden illustreren dit.
 ![Veelvoorkomende gebruikersvraag: wat gebeurt er bij mij in de buurt?](media/in-mijn-buurt.png)
 
 Figuur – Veelvoorkomende gebruikersvraag: wat gebeurt er bij mij in de buurt?
+
+
+> Voorbeeld: Berichten over uw buurt (overheid.nl)
+>
+> Vraag: Welke besluiten van (lokale) overheden, zoals vergunningen, bouwplannen en lokale regelgeving, zijn recentelijk in de buurt van een locatie gepubliceerd. [https://www.overheid.nl/berichten-over-uw-buurt](https://www.overheid.nl/berichten-over-uw-buurt)
+> Antwoord: de besluiten in de buurt van het opgegeven adres, gesorteerd op datum en nog na te filteren. In lijst beschikbaar en via een kaart.
 
 > Voorbeeld - Bestemmingsplannen
 >
@@ -113,7 +119,6 @@ Figuur – Veelvoorkomende gebruikersvraag: wat gebeurt er bij mij in de buurt?
 > Vragen: Vragen: Waar gaan de volgende handelsmissies van de Minister van Buitenlandse zaken heen? Wanneer is de volgende handelsmissie naar Land X?
 >
 > Antwoord: Een alfabetische lijst met bestemmingen.
-
 
 De antwoorden bij alle bovenstaande voorbeelden zijn uitstekend tekstueel te geven. Deze antwoorden zijn
 goed toegankelijk in een kaart te presenteren als ondersteuning bij de tekst. Deze kaarten vereisen weinig

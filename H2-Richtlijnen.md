@@ -10,7 +10,7 @@ Voor geo-informatie / locatiedata gelden echter uitzonderingen. Wij raden desond
 We hanteren in dit hoofdstuk een indeling op basis van de principes waarneembaar, bedienbaar en begrijpelijk. Van elk principe komen de belangrijkste eisen aan bod. Per eis belichten we aandachtspunten, veelvoorkomende toegankelijkheidskwesties en suggesties voor oplossingen. We hanteren de nummering van eisen zoals in het originele [[WCAG21]] document. Daarnaast zijn er enkele algemene, universele zaken die kunnen helpen bij het toegankelijk aanbieden van geo-informatie. Deze behandelen we eerst.
 
 ### Universele zaken
-In deze paragraaf worden enkele universele zaken uitgelegd, die kunnen helpen bij het toegankelijk maken van websites en toepassingen met locatiedata. Dit zijn niet direct toegankelijkheidseisen.
+In deze paragraaf worden enkele universele zaken uitgelegd, die kunnen helpen bij het toegankelijk maken van websites en toepassingen met locatiedata. Dit zijn niet direct toegankelijkheidseisen, maar het kan wel nutig zijn om deze principes te volgen bij implementatie om te voldoen.
 
 #### Gelaagd bouwen
 Gelaagd bouwen betekent dat een website zodanig gelaagd is opgebouwd, dat iedereen gegarandeerd
@@ -166,17 +166,6 @@ dan de visuele variant.
 > Een *rond* radarscherm is het beste om vanuit een locatie te denken.
 > Voorbeeld - Radar
 
-TODO: ander voorbeeld? Voorbeeld eruit?
-
-> Bij de GEOZET applicatie werd de functionaliteit in twee lagen aangeboden: een core en enhanced versie. De core is een formulier waarin locatie gevraagd wordt, met zoekresultaten gesorteerd op afstand. Hoe dichterbij het zoekresultaat, hoe hoger het in de lijst staat. De enhanced versie is een volledig interactieve kaart. De functionaliteiten zijn niet hetzelfde, zo kun je in de core zoomen terwijl in de enhanced versie er een straal opgegeven kan worden. Het effect is gelijkwaardig, maar de uitvraag aan de gebruiker verschilt
->
-> Geaccepteerde uitgangspunten van GEOZET:
-> * Er kan een gering onderscheid zijn tussen de zoekresultaten die – bij opgave van eenzelfde adres - getoond worden in de core-versie en in de enhanced-versie.
-> * Bepaalde secundaire informatie, die niet direct bijdraagt aan het beantwoorden van de geformuleerde zoekvraag, kan worden getoond in de enhanced-versie en niet in de core-versie.
-> * De enhanced-versie kan secundaire informatie bevatten die niet volledig voldoet aan de toegankelijkheidseisen.
->
-> Voorbeeld - Geozet
-
 #### Kaarten met een animatie
 Wanneer de toegankelijkheidseisen spreken over tijd gebaseerde media, dan gaat het meestal over online
 gepubliceerd videomateriaal. In de context van geo-informatie zijn de toegankelijkheidseisen met betrekking tot tijd
@@ -274,12 +263,18 @@ de kaart Bekendmakingen op Overheid.nl (zie ).
 De mogelijkheid van access keys hoeft u overigens niet altijd zelf te implementeren: soms maakt deze
 functionaliteit standaard deel uit van softwarebibliotheken.
 
+Merk op dat de bediening met het toetsenbord van kaarten voor veel gebruikers minder handig lijkt of wennen is, maar realiseer dat het voor sommigen de **enige** manier is. Daarom is het van belang dat toetsenbordbediening **ook** werkt, in aanvulling op bediening met de muis.
+
 Besteed dus aandacht aan toetsenbordbediening, ook bij het testen. Laat overbodige functionaliteit weg;
 dat scheelt ook werk met het toegankelijk maken.
 
 > De bibliotheken OpenLayers en LeafletJS bieden navigatie via het toetsenbord. Echter, het bekijken van gegevens op een kaart, bijvoorbeeld via informatie-ballonnen, is vaak lastig met alleen het toetsenbord. Ondersteuning hiervoor is slechts in enkele gevallen aanwezig. Bij de keuze voor een toolbox en bij het realiseren verdient toetsenbordbediening daarom extra aandacht.
 >
 > Voorbeeld - Navigatie via het toetsenbord
+
+> Op [https://www.digitaleoverheid.nl/initiatief/](https://www.digitaleoverheid.nl/initiatief/) staat een kaart die te bedienen is met het toetsenbord. De informatie op de kaart is trouwens ook via een tekstuele lijst in te zien.
+>
+> Voorbeeld - Een kaart bedienen met het toetsenbord
 
 #### Genoeg tijd bij animaties
 
@@ -298,7 +293,7 @@ per seconde. Animeer kleine geografische eenheden en gebruik andere signaalkleur
 staat meer informatie in paragraaf 2.2.2.
 
 ### Begrijpelijk
-In deze paragraaf worden verschillende uitwerkingen van het principe begrijpelijk uitgelegd.
+In deze paragraaf worden uitwerkingen van het principe begrijpelijk uitgelegd.
 
 #### Invoer en foutmeldingen
 
