@@ -32,8 +32,6 @@ ontwikkelfase is het makkelijker om flexibel en robuust om te gaan met nieuwe fu
 
 ### Duurzaamheid
 
-> Een printfunctie is bij geo-applicaties een veelgevraagde functionaliteit. Door het gebruik van print stylesheets (in CSS) bij de ontwikkeling van Geozet was dit snel en met weinig code gerealiseerd. De gebruiker kan via de gewone printfunctie van de eigen browser de kaart printen, inclusief relevante informatie als de titel en de geselecteerde gegevens erop. Het was niet nodig aparte printservices te ontwikkelen, wat bij veel interactieve kaarten wel het geval is en vaak tot hoge kosten leidt.
-
 Elke webpagina is onder te verdelen in een aantal aspecten. De vormgeving (lettertypes, witruimtes,
 kleuren) bepaalt hoe de pagina eruit ziet. De structuur zegt iets over de opmaak van het document, of iets
 een titel is, een opsomming of een paragraaf. De content is de werkelijke inhoud van de pagina, inclusief
@@ -44,6 +42,8 @@ wat vermindering van kosten op beheer en doorontwikkeling betekent. Als de huiss
 hiervoor niet de hele website aan te passen. Dit kunt u eenvoudig op één plek doen. Bij de invoering van
 nieuwe technieken die niet op alle aspecten impact hebben, hoeft ook niet de hele website op de schop.
 Gaat u bijvoorbeeld over op responsive design? Dan hoeft u alleen de vormgeving aan te passen.
+
+> Een printfunctie is bij geo-applicaties een veelgevraagde functionaliteit. Door het gebruik van print stylesheets (in CSS) bij de ontwikkeling van Geozet was dit snel en met weinig code gerealiseerd. De gebruiker kan via de gewone printfunctie van de eigen browser de kaart printen, inclusief relevante informatie als de titel en de geselecteerde gegevens erop. Het was niet nodig aparte printservices te ontwikkelen, wat bij veel interactieve kaarten wel het geval is en vaak tot hoge kosten leidt.
 
 De toegankelijkheidseisen stellen kwaliteitseisen aan code, zoals een bepaalde structuur. Deze webstandaarden en conventies zijn voor iedereen toegankelijk. Daarnaast is de code beter te begrijpen voor (andere) ontwikkelaars en beheerders. Dit maakt een overgang
 naar een ander CMS (Content Management Systeem) of een andere beheerorganisatie eenvoudiger.

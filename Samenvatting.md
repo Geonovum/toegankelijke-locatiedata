@@ -4,7 +4,7 @@
 
 Het publiceren van geo-informatie op een overheidswebsite en tegelijkertijd voldoen aan de
 webrichtlijnen is zeker mogelijk. De principes, vuistregels en tips hieronder helpen u om dit in
-de praktijk te brengen. In [Bijlage D Afbeeldingen](#B03) is een afbeelding opgenomen met deze principes en vuistregels.
+de praktijk te brengen. In [Bijlage C Afbeeldingen](#B03) is een afbeelding opgenomen met deze principes en vuistregels.
 
 #### Basisprincipes
 De belangrijkste **basisprincipes** voor het publiceren van geo-informatie volgens de webrichtlijnen zijn:
