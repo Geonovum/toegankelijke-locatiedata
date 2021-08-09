@@ -5,30 +5,14 @@
 </p>
 
 Eind 2013 publiceerde Geonovum in samenwerking met ICTU de eerste versie van de Handreiking Geo-
-informatie en Webrichtlijnen. Vragen over dit onderwerp vanuit het werkveld waren hiervoor de aanleiding.
-Continue ontwikkelingen in het domein van webrichtlijnen en geo-informatie maakten een update van de
-oorspronkelijke handreiking gewenst. Deze ligt nu voor u.
+informatie en Webrichtlijnen. Vragen over dit onderwerp vanuit het werkveld waren hiervoor de aanleiding. In 2015 is daarvan een bijgewerkte versie gepubliceerd, versie 2.0-beta, gebaseerd op WCAG 2.0 en Webrichtlijnen 2. Inmiddels zijn er vernieuwde toegankelijkheidseisen en wetgeving over digitale toegankelijkheid. Dit document is een actualisatie van versie 2.0-beta, door Geonovum, met de volgende aanpassingen:
 
-Grootste verschillen met de eerdere versie zijn: de actualisatie van onderdelen en het verwerken van
-opmerkingen, het toevoegen van praktijk- en code-voorbeelden en de versterkte samenwerking met de
-ontwikkelaars van het toepassingskader Webrichtlijnen (Toepassingskader: Toegankelijkheid voor iedereen,
-2014). De actualisatie is uitgevoerd door hetzelfde projectteam dat verantwoordelijk was voor de eerste
-Handreiking Geo-informatie en Webrichtlijnen. Met dit document hopen ICTU en Geonovum het toegankelijk
-publiceren van geo-informatie door overheidsorganisaties te vergemakkelijken voor alle geïnteresseerden.
-We horen graag of dit document u geholpen heeft en of u verbeteringen weet aan te dragen.
+* omzetten van de PDF naar een webdocument
+* verwijderen van verouderde voorbeelden en niet-werkende links
+* actualiseren van namen en toegankelijkheidseisen vanwege vervanging Webrichtlijnen 2 door nieuwe [digitale toegankelijkheidseisen](https://www.digitoegankelijk.nl/)
+* vervangen van algemene teksten ovr toegankelijkheid en Webrichtijnen door verwijzing naar [digitoegankelijk.nl/](https://www.digitoegankelijk.nl/)
 
-> De kaart van de toekomst is geen kaart – het is ingekaderde informatie, die je wordt
-> voorgeschoteld op basis van je locatie. Vroeger maakten veel gemeenten de fout om complexe
-> WebGIS-systemen op te tuigen, die een onbegrijpelijke hoeveelheid geografische informatie in een
-> klein scherm tonen. In plaats daarvan moet je betere manieren verzinnen om die informatie te
-> presenteren die belangrijk is voor de persoon die de vraag stelt.
->
-> _- Ed Parsons Geo-ICT-er bij Google (Parsons, 2013)_
-
-
-> Hoewel door sommigen de dood van de kaart wordt voorspeld, blijft de digitale kaart een van de beste manieren om geografische, ruimtelijke en lokale informatie te visualiseren. Zelfs als je nooit hebt leren kaartlezen, geeft een kaart je toch een vertrouwd gevoel en draaien we onszelf onwillekeurig naar een kaart toe.
->
-> _- Gary Gale (Gale, 2013)_
+Als in dit document over toegankelijkheidseisen wordt gesproken, doelen we op de eisen zoals beschreven op [https://www.digitoegankelijk.nl/](https://www.digitoegankelijk.nl/), tenzij anders aangegeven.
 
 ### Leeswijzer
-De belangrijkste principes, vuistregels en adviezen leest u in de [Samenvatting](#abstract). In [Hoofdstuk 2](#H02) lichten we de belangrijke eisen uit de webrichtlijnen toe voor geo-informatie, inclusief toegankelijkheidskwesties en mogelijke oplossingen. [Hoofdstuk 3](#H03) laat zien hoe het hanteren van een gebruikersperspectief helpt bij het publiceren van geo-informatie. [Hoofdstuk 4](#H04) biedt handvatten voor toegankelijkheidsuitdagingen voor specifieke soorten geo-informatie: lijn- en vlakinformatie, rasterkaarten en animaties. In [Hoofdstuk 5](#H05) leest u alles over de webrichtlijnen. Het gebruik van de webrichtlijnen levert veel voordelen op voor uw digitale communicatie. Welke dat zijn, leest u in [Hoofdstuk 6](#H06). Ten slotte biedt [Hoofdstuk 7](#H07) een verantwoording voor dit document en het project.
+De belangrijkste principes, vuistregels en adviezen leest u in de [Samenvatting](#abstract). In [Hoofdstuk 2](#H02) lichten we de belangrijke toegankelijkheidseisen toe voor locatiedata, inclusief toegankelijkheidskwesties en mogelijke oplossingen. [Hoofdstuk 3](#H03) laat zien hoe het hanteren van een gebruikersperspectief helpt bij het publiceren van geo-informatie en gebruik van locatiedata. [Hoofdstuk 4](#H04) biedt handvatten voor toegankelijkheidsuitdagingen voor specifieke soorten geo-informatie: lijn- en vlakinformatie, rasterkaarten en animaties. In [Hoofdstuk 5](#H05) staan enkele verwijzingen naar informatie over digitale toegankelijkheidseisen en de huidige verplichtingen. Het voldoen aan de toegankelijkheidseisen levert veel voordelen op voor uw digitale communicatie. Welke dat zijn, leest u in [Hoofdstuk 6](#H06). Ten slotte biedt [Hoofdstuk 7](#H07) een verantwoording voor dit document en het project.
