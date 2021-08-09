@@ -3,11 +3,11 @@
 ### Principes, vuistregels en adviezen
 
 Het publiceren van geo-informatie op een overheidswebsite en tegelijkertijd voldoen aan de
-webrichtlijnen is zeker mogelijk. De principes, vuistregels en tips hieronder helpen u om dit in
+toegankelijkheidseisen is zeker mogelijk. De principes, vuistregels en tips hieronder helpen u om dit in
 de praktijk te brengen. In [Bijlage C Afbeeldingen](#B03) is een afbeelding opgenomen met deze principes en vuistregels.
 
 #### Basisprincipes
-De belangrijkste **basisprincipes** voor het publiceren van geo-informatie volgens de webrichtlijnen zijn:
+De belangrijkste **basisprincipes** voor het digitaal toegankelijk publiceren van geo-informatie zijn:
 
 * Stel de gebruikersvraag centraal.
 * Ontwikkel voor de eindgebruiker.
@@ -28,13 +28,12 @@ kaart een ondersteunend middel.
 * **Gebruik en conformeer aan standaarden en technologie van het web**.
 * **Zorg ervoor dat in een projectteam voldoende kennis aanwezig is van communicatie, webtechnologie en geo-informatie**. Deze kennis is zelden gebundeld in één persoon.
 * **Test op conformiteit aan (web)standaarden**. Dat kan met webbrowsers en online testtools.
-Test vanaf het begin van het ontwikkelwerk en doe vroegtijdig een webrichtlijnen-toets. Test met
+Test vanaf het begin van het ontwikkelwerk en doe vroegtijdig een toegankelijkheidsonderzoek. Test met
 meerdere apparaten, op meerdere platformen.
 * Onthoud dat de eindgebruiker meestal niet dezelfde kennis en ervaring heeft als de ontwikkelaar
 en de specialist.
 
 In de volgende hoofdstukken werken we deze principes en vuistregels verder uit.
 
-**Let op**: Voor het publiceren van geo-informatie volgens de webrichtlijnen bestaat geen universeel
-toepasbare aanpak. Daarvoor zijn er te veel verschillende onderwerpen, systemen, platformen en
-gebruikers.
+**Let op**: Voor het digitaal toegankelijk publiceren van geo-informatie bestaat geen universeel
+toepasbare aanpak. Daarvoor zijn er te veel verschillende onderwerpen, systemen, platformen en gebruikers.
