@@ -13,14 +13,9 @@ var respecConfig =
   editors:
   [
     {
-      name:       "Theo Overduin",
+      name:       "Thijs Brentjens",
       company:    "Geonovum",
       companyURL: "https://geonovum.nl"
-    },
-    {
-      name:       "Thijs Brentjens",
-      company:    "Brentjens Geo-ICT",
-      companyURL: "https://brentjensgeoict.nl"
     },
   ],
   //-- de namen van de Author(s) ------------------------------------------------------
@@ -45,8 +40,8 @@ var respecConfig =
     },
     {
       name:       "Thijs Brentjens",
-      company:    "Brentjens Geo-ICT",
-      companyURL: "https://brentjensgeoict.nl"
+      company:    "Geonovum",
+      companyURL: "https://geonovum.nl"
     },
     {
       name:       "Victor Zuydweg",
@@ -62,14 +57,14 @@ var respecConfig =
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   localBiblio:
   {
-    "webgeo2":
+    "webgeo21":
     {
-        title:      "Webrichtlijnen en geo 2.0 bèta",
+        title:      "Webrichtlijnen en geo 2.1 bèta",
         href:       "https://www.geonovum.nl/geo-standaarden/geo-op-het-web/webrichtlijnen-en-geo-20-beta",
-        status:     "V2.0 beta",
+        status:     "V2.1 beta",
         publisher:  "Geonovum",
         company:    "Geonovum",
-        id: "webgeo2"
+        id: "webgeo21"
     },
 
   },
