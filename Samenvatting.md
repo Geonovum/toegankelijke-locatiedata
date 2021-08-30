@@ -3,7 +3,7 @@
 ### Principes, vuistregels en adviezen
 
 Het publiceren van geo-informatie op een overheidswebsite en tegelijkertijd voldoen aan de
-toegankelijkheidseisen is zeker mogelijk. De principes, vuistregels en tips hieronder helpen u om dit in
+toegankelijkheidseisen is zeker mogelijk. De principes, vuistregels en tips in dit document helpen u om dit in
 de praktijk te brengen. In [Bijlage C Afbeeldingen](#B03) is een afbeelding opgenomen met deze principes en vuistregels.
 
 #### Basisprincipes

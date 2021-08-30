@@ -243,11 +243,6 @@ Vaak biedt een website functionaliteit (knoppen), waarmee de gebruiker de applic
 gegevens kan opvragen. Helaas is deze functionaliteit vaak niet (of niet volledig) te bedienen met het
 toetsenbord.
 
-> De [Risicokaart](https://nederland.risicokaart.nl/) is een voorbeeld van een kaart die niet goed te bedienen is met het toetsenbord
-> (Risicokaart van Nederland, 2021)
->
-> Voorbeeld - Risicokaart
-
 > [Ruimtelijke Plannen](https://www.ruimtelijkeplannen.nl/viewer/) is een voorbeeld van een webapplicatie waarvan het formulier en kaart maar beperkt te bedienen zijn met het toetsenbord (Ruimtelijkeplannen.nl, 2021).
 
 ##### Mogelijke oplossingen
@@ -268,11 +263,11 @@ Merk op dat de bediening met het toetsenbord van kaarten voor veel gebruikers mi
 Besteed dus aandacht aan toetsenbordbediening, ook bij het testen. Laat overbodige functionaliteit weg;
 dat scheelt ook werk met het toegankelijk maken.
 
-> De bibliotheken OpenLayers en LeafletJS bieden navigatie via het toetsenbord. Echter, het bekijken van gegevens op een kaart, bijvoorbeeld via informatie-ballonnen, is vaak lastig met alleen het toetsenbord. Ondersteuning hiervoor is slechts in enkele gevallen aanwezig. Bij de keuze voor een toolbox en bij het realiseren verdient toetsenbordbediening daarom extra aandacht.
+> Op [www.digitaleoverheid.nl](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/nieuwe-technologieen-data-en-ethiek/het-led/overzicht-data-initiatieven/) staat een kaart die te bedienen is met het toetsenbord. De informatie op de kaart is trouwens ook via een tekstuele lijst in te zien.
 >
-> Voorbeeld - Navigatie via het toetsenbord
+> Voorbeeld - Een kaart bedienen met het toetsenbord
 
-> Op [https://www.digitaleoverheid.nl/initiatief/](https://www.digitaleoverheid.nl/initiatief/) staat een kaart die te bedienen is met het toetsenbord. De informatie op de kaart is trouwens ook via een tekstuele lijst in te zien.
+> Op [kaart.amsterdam.nl](https://kaart.amsterdam.nl/) is een kaart via het toetsenbord te bedienen, waarbij verschillende kaartlagen/databronnen te gebruiken zijn.
 >
 > Voorbeeld - Een kaart bedienen met het toetsenbord
 
