@@ -1,12 +1,14 @@
 //-------------------------------------------------------------------------------------
 var respecConfig =
 {
-  specStatus: "GN-WV",
+  title: "Handreiking digitaal toegankelijke locatiedata",
+  specStatus: "wv",
   specType: "HR",
-  format: "markdown",
+  //format: "markdown",
   //-- publishDate is verplicht -------------------------------------------------------
-  //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  // publishDate: "2021-08-02",  	    // Format is "YYY-MM-DD"
+  publishDate: "2021-08-02",  	    // Format is "YYY-MM-DD"
+  publishVersion: [],
+ 
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   github: "https://github.com/geonovum/toegankelijke-locatiedata",
@@ -66,7 +68,6 @@ var respecConfig =
         company:    "Geonovum",
         id: "webgeo21"
     },
-
   },
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit!
